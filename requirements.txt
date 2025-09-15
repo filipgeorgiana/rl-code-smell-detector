@@ -1,0 +1,6 @@
+dnspython==2.7.0
+pymongo==4.10.1
+openai~=0.28.0
+streamlit~=1.49.1
+pandas~=2.3.2
+plotly~=6.3.0
