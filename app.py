@@ -7,6 +7,7 @@ from typing import List
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+from pandas import DataFrame
 
 from analyzer import Analyzer
 from model.report import Report
@@ -27,7 +28,6 @@ def reports_to_dataframe(reports: List[Report]) -> pd.DataFrame:
                 "Smell": h.name,
                 "Details": h.details,
                 "Line": h.line_nr,
-                # Display just the enum name
                 "Category": h.category.name if h.category is not None else "",
                 "Is Code Smell": h.is_code_smell,
             })
@@ -41,6 +41,26 @@ repo_url = st.text_input(
     "Enter GitHub repository URL (HTTPS)",
     placeholder="https://github.com/username/repo"
 )
+
+df = DataFrame
+
+def display_results_dataframe():
+    global df
+    df = reports_to_dataframe(reports)
+    st.subheader("Analysis Results")
+    st.dataframe(df, width="stretch")
+
+
+def display_csv_download_button():
+    # CSV download
+    csv = df.to_csv(index=False).encode("utf-8")
+    st.download_button(
+        label="📥 Download Full Report as CSV",
+        data=csv,
+        file_name="rl_code_smell_report.csv",
+        mime="text/csv",
+    )
+
 
 if st.button("Analyze Repository"):
     if not repo_url.strip():
@@ -77,18 +97,9 @@ if st.button("Analyze Repository"):
 
 
                 if reports:
-                    df = reports_to_dataframe(reports)
-                    st.subheader("Analysis Results")
-                    st.dataframe(df, width="stretch")
+                    display_results_dataframe()
 
-                    # CSV download
-                    csv = df.to_csv(index=False).encode("utf-8")
-                    st.download_button(
-                        label="📥 Download Full Report as CSV",
-                        data=csv,
-                        file_name="rl_code_smell_report.csv",
-                        mime="text/csv",
-                    )
+                    display_csv_download_button()
 
                     st.subheader("Distribution of Code Smells by Category")
                     category_counts = (
@@ -98,15 +109,26 @@ if st.button("Analyze Repository"):
                     )
                     category_counts.columns = ["Category", "Count"]
 
-                    fig = px.pie(
+                    fig = px.bar(
                         category_counts,
-                        names="Category",
-                        values="Count",
+                        x="Category",
+                        y="Count",
                         title="Distribution of RL Code Smells by Category",
                         color="Category"
                     )
                     st.plotly_chart(fig, use_container_width=True)
 
+                    total_smells = category_counts["Count"].sum()
+                    category_counts["Percentage"] = (category_counts["Count"] / total_smells * 100).round(2)
+
+                    # Display table with categories and percentages
+                    st.subheader("Code Smell Category Breakdown")
+                    category_table = category_counts[["Category", "Count", "Percentage"]].copy()
+                    category_table.columns = ["Code Smell Category", "Nr of Occurrences", "Percentage"]
+                    category_table["Percentage"] = category_table["Percentage"].astype(str) + " %"
+                    category_table["Nr of Occurrences"] = category_table["Nr of Occurrences"].astype(str)
+
+                    st.table(category_table)
                 else:
                     st.success("✅ No RL-specific code smells detected!")
 
