@@ -19,6 +19,10 @@ st.set_page_config(page_title="RL Code Smell Detector", layout="wide")
 st.title("RL Code Smell Detector")
 st.write("Analyze a GitHub repository for RL-specific code smells.")
 
+# Initialize session state
+if "df" not in st.session_state:
+    st.session_state.df = None
+
 def reports_to_dataframe(reports: List[Report]) -> pd.DataFrame:
     rows = []
     for report in reports:
@@ -42,30 +46,23 @@ repo_url = st.text_input(
     placeholder="https://github.com/username/repo"
 )
 
-df = DataFrame
+col1, col2 = st.columns([1, 7])
+with col1:
+    analyze_clicked = st.button("Analyze Repository", type="secondary", use_container_width=False)
+with col2:
+    clear_clicked = st.button("🔄 Clear Results", type="primary", use_container_width=False)
 
-def display_results_dataframe():
-    global df
-    df = reports_to_dataframe(reports)
-    st.subheader("Analysis Results")
-    st.dataframe(df, width="stretch")
+if clear_clicked:
+    st.session_state.df = None
+    st.rerun()
 
-
-def display_csv_download_button():
-    # CSV download
-    csv = df.to_csv(index=False).encode("utf-8")
-    st.download_button(
-        label="📥 Download Full Report as CSV",
-        data=csv,
-        file_name="rl_code_smell_report.csv",
-        mime="text/csv",
-    )
-
-
-if st.button("Analyze Repository"):
+if analyze_clicked:
     if not repo_url.strip():
         st.error("Please enter a GitHub repository URL")
     else:
+        # Clear previous results
+        st.session_state.df = None
+
         with tempfile.TemporaryDirectory() as tmpdir:
             try:
                 st.info("Cloning repository... this may take a moment ⏳")
@@ -97,40 +94,72 @@ if st.button("Analyze Repository"):
 
 
                 if reports:
-                    display_results_dataframe()
-
-                    display_csv_download_button()
-
-                    st.subheader("Distribution of Code Smells by Category")
-                    category_counts = (
-                        df[df["Is Code Smell"] == True]["Category"]
-                        .value_counts()
-                        .reset_index()
-                    )
-                    category_counts.columns = ["Category", "Count"]
-
-                    fig = px.bar(
-                        category_counts,
-                        x="Category",
-                        y="Count",
-                        title="Distribution of RL Code Smells by Category",
-                        color="Category"
-                    )
-                    st.plotly_chart(fig, use_container_width=True)
-
-                    total_smells = category_counts["Count"].sum()
-                    category_counts["Percentage"] = (category_counts["Count"] / total_smells * 100).round(2)
-
-                    # Display table with categories and percentages
-                    st.subheader("Code Smell Category Breakdown")
-                    category_table = category_counts[["Category", "Count", "Percentage"]].copy()
-                    category_table.columns = ["Code Smell Category", "Nr of Occurrences", "Percentage"]
-                    category_table["Percentage"] = category_table["Percentage"].astype(str) + " %"
-                    category_table["Nr of Occurrences"] = category_table["Nr of Occurrences"].astype(str)
-
-                    st.table(category_table)
+                    st.session_state.df = reports_to_dataframe(reports)
                 else:
                     st.success("✅ No RL-specific code smells detected!")
 
             except subprocess.CalledProcessError as e:
                 st.error(f"Failed to clone repository: {e}")
+
+# Display results section - outside the analyze button to persist across reruns
+if st.session_state.df is not None:
+    st.subheader("Analysis Results")
+    st.dataframe(st.session_state.df, width="stretch")
+
+    # CSV download
+    csv = st.session_state.df.to_csv(index=False).encode("utf-8")
+    st.download_button(
+        label="📥 Download Full Report as CSV",
+        data=csv,
+        file_name="rl_code_smell_report.csv",
+        mime="text/csv",
+    )
+
+    st.subheader("Distribution of Code Smells by Category")
+    category_counts = (
+        st.session_state.df[st.session_state.df["Is Code Smell"] == True]["Category"]
+        .value_counts()
+        .reset_index()
+    )
+    category_counts.columns = ["Category", "Count"]
+
+    fig = px.bar(
+        category_counts,
+        x="Category",
+        y="Count",
+        title="Distribution of RL Code Smells by Category",
+        color="Category"
+    )
+    st.plotly_chart(fig, use_container_width=True)
+
+    total_smells = category_counts["Count"].sum()
+    category_counts["Percentage"] = (category_counts["Count"] / total_smells * 100).round(2)
+
+    # Display table with categories and percentages
+    st.subheader("Code Smell Category Breakdown")
+    category_table = category_counts[["Category", "Count", "Percentage"]].copy()
+    category_table.columns = ["Code Smell Category", "Nr of Occurrences", "Percentage"]
+    category_table["Percentage"] = category_table["Percentage"].astype(str) + " %"
+    category_table["Nr of Occurrences"] = category_table["Nr of Occurrences"].astype(str)
+
+    st.table(category_table)
+
+    # Category filter section
+    st.subheader("Filter Code Smells by Category")
+    category_input = st.text_input(
+        "Enter a category name:",
+        placeholder="e.g., Exploration, Reward, etc."
+    )
+
+    if category_input.strip():
+        filtered_df = st.session_state.df[
+            (st.session_state.df["Is Code Smell"] == True) &
+            (st.session_state.df["Category"].str.lower() == category_input.strip().lower())
+        ]
+
+        if not filtered_df.empty:
+            st.write(f"**Code smells in category '{category_input}':**")
+            display_columns = ["File", "Smell", "Details", "Line"]
+            st.dataframe(filtered_df[display_columns], width="stretch")
+        else:
+            st.warning(f"No code smells found in category '{category_input}'")
