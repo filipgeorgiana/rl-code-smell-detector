@@ -14,6 +14,7 @@ from model.report import Report
 from model.heuristic import Heuristic
 from pre_processing import RLScriptDetector
 from project_reader import ProjectReader, read_file
+from github_utils import get_repo_age_days
 
 st.set_page_config(page_title="RL Code Smell Detector", layout="wide")
 st.title("RL Code Smell Detector")
@@ -22,6 +23,8 @@ st.write("Analyze a GitHub repository for RL-specific code smells.")
 # Initialize session state
 if "df" not in st.session_state:
     st.session_state.df = None
+if "repo_age_days" not in st.session_state:
+    st.session_state.repo_age_days = None
 
 def reports_to_dataframe(reports: List[Report]) -> pd.DataFrame:
     rows = []
@@ -54,6 +57,7 @@ with col2:
 
 if clear_clicked:
     st.session_state.df = None
+    st.session_state.repo_age_days = None
     st.rerun()
 
 if analyze_clicked:
@@ -62,11 +66,18 @@ if analyze_clicked:
     else:
         # Clear previous results
         st.session_state.df = None
+        st.session_state.repo_age_days = None
 
         with tempfile.TemporaryDirectory() as tmpdir:
             try:
                 st.info("Cloning repository... this may take a moment ⏳")
                 subprocess.run(["git", "clone", repo_url, tmpdir], check=True)
+
+                # Fetch repository age
+                st.info("Fetching repository metadata... 📊")
+                repo_age = get_repo_age_days(repo_url)
+                if repo_age is not None:
+                    st.session_state.repo_age_days = repo_age
 
                 reader = ProjectReader(tmpdir)
                 files = reader.list_files()
@@ -103,6 +114,10 @@ if analyze_clicked:
 
 # Display results section - outside the analyze button to persist across reruns
 if st.session_state.df is not None:
+    # Display repository age if available
+    if st.session_state.repo_age_days is not None:
+        st.info(f"📅 Repository age: {st.session_state.repo_age_days} days (based on last commit)")
+
     st.subheader("Analysis Results")
     st.dataframe(st.session_state.df, width="stretch")
 
