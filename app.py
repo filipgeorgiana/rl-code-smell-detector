@@ -25,6 +25,10 @@ if "df" not in st.session_state:
     st.session_state.df = None
 if "repo_age_days" not in st.session_state:
     st.session_state.repo_age_days = None
+if "selected_category" not in st.session_state:
+    st.session_state.selected_category = None
+if "repo_url" not in st.session_state:
+    st.session_state.repo_url = ""
 
 def reports_to_dataframe(reports: List[Report]) -> pd.DataFrame:
     rows = []
@@ -58,6 +62,7 @@ with col2:
 if clear_clicked:
     st.session_state.df = None
     st.session_state.repo_age_days = None
+    st.session_state.selected_category = None
     st.rerun()
 
 if analyze_clicked:
@@ -142,10 +147,32 @@ if st.session_state.df is not None:
         category_counts,
         x="Category",
         y="Count",
-        title="Distribution of RL Code Smells by Category",
-        color="Category"
+        title="Distribution of RL Code Smells by Category (Click on a bar to see details)",
+        color="Category",
+        custom_data=["Category"]
     )
-    st.plotly_chart(fig, use_container_width=True)
+
+    # Handle click events on the chart
+    category_barchart = st.plotly_chart(fig, use_container_width=True, on_select="rerun", selection_mode="points", key="category_chart")
+
+    # Update selected category based on click
+    if category_barchart and category_barchart.selection and category_barchart.selection.points:
+        points = category_barchart.selection.points
+        if points:
+            # Get the category from the x-axis value of the clicked point
+            clicked_category = points[0]["x"]
+            st.session_state.selected_category = clicked_category
+
+    if st.session_state.selected_category is not None:
+        st.subheader(f"Code Smells in Category: {st.session_state.selected_category}")
+        filtered_df = st.session_state.df[
+            (st.session_state.df["Is Code Smell"] == True) &
+            (st.session_state.df["Category"] == st.session_state.selected_category)
+        ]
+
+        if not filtered_df.empty:
+                display_columns = ["File", "Smell", "Details", "Line"]
+                st.dataframe(filtered_df[display_columns], width="stretch")
 
     total_smells = category_counts["Count"].sum()
     category_counts["Percentage"] = (category_counts["Count"] / total_smells * 100).round(2)
@@ -158,23 +185,3 @@ if st.session_state.df is not None:
     category_table["Nr of Occurrences"] = category_table["Nr of Occurrences"].astype(str)
 
     st.table(category_table)
-
-    # Category filter section
-    st.subheader("Filter Code Smells by Category")
-    category_input = st.text_input(
-        "Enter a category name:",
-        placeholder="e.g., Exploration, Reward, etc."
-    )
-
-    if category_input.strip():
-        filtered_df = st.session_state.df[
-            (st.session_state.df["Is Code Smell"] == True) &
-            (st.session_state.df["Category"].str.lower() == category_input.strip().lower())
-        ]
-
-        if not filtered_df.empty:
-            st.write(f"**Code smells in category '{category_input}':**")
-            display_columns = ["File", "Smell", "Details", "Line"]
-            st.dataframe(filtered_df[display_columns], width="stretch")
-        else:
-            st.warning(f"No code smells found in category '{category_input}'")
