@@ -7,7 +7,6 @@ from typing import List
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-from pandas import DataFrame
 
 from analyzer import Analyzer
 from model.report import Report
@@ -53,7 +52,9 @@ repo_url = st.text_input(
     placeholder="https://github.com/username/repo"
 )
 
-col1, col2 = st.columns([1, 7])
+# col1, col2 = st.columns([1, 7])
+col1, col2 = st.columns([.101,1])
+
 with col1:
     analyze_clicked = st.button("Analyze Repository", type="secondary", use_container_width=False)
 with col2:
