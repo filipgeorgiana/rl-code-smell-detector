@@ -2,24 +2,22 @@ import ast
 import os
 import subprocess
 import tempfile
-from typing import List
-
-import pandas as pd
 import streamlit as st
 import plotly.express as px
 
+from typing import List
 from analyzer import Analyzer
 from model.report import Report
 from model.heuristic import Heuristic
 from pre_processing import RLScriptDetector
 from project_reader import ProjectReader, read_file
-from github_utils import get_repo_age_days
+from github_utils import get_repo_last_update
+from ui_utils import reports_to_dataframe
 
 st.set_page_config(page_title="RL Code Smell Detector", layout="wide")
 st.title("RL Code Smell Detector")
 st.write("Analyze a GitHub repository for RL-specific code smells.")
 
-# Initialize session state
 if "df" not in st.session_state:
     st.session_state.df = None
 if "repo_age_days" not in st.session_state:
@@ -29,35 +27,16 @@ if "selected_category" not in st.session_state:
 if "repo_url" not in st.session_state:
     st.session_state.repo_url = ""
 
-def reports_to_dataframe(reports: List[Report]) -> pd.DataFrame:
-    rows = []
-    for report in reports:
-        for h in report.heuristics:
-            rows.append({
-                "File": report.filename,
-                "Smell": h.name,
-                "Details": h.details,
-                "Line": h.line_nr,
-                "Category": h.category.name if h.category is not None else "",
-                "Is Code Smell": h.is_code_smell,
-            })
-    return pd.DataFrame(rows)
-
-
-# ------------------------
-# GitHub Repo Input
-# ------------------------
 repo_url = st.text_input(
     "Enter GitHub repository URL (HTTPS)",
     placeholder="https://github.com/username/repo"
 )
 
-# col1, col2 = st.columns([1, 7])
-col1, col2 = st.columns([.101,1])
+analyze_button, clear_button = st.columns([.15, 1])
 
-with col1:
+with analyze_button:
     analyze_clicked = st.button("Analyze Repository", type="secondary", use_container_width=False)
-with col2:
+with clear_button:
     clear_clicked = st.button("🔄 Clear Results", type="primary", use_container_width=False)
 
 if clear_clicked:
@@ -66,48 +45,56 @@ if clear_clicked:
     st.session_state.selected_category = None
     st.rerun()
 
+
+def clone_repo():
+    st.info("⏳ Cloning repository... this may take a moment ⏳")
+    subprocess.run(["git", "clone", repo_url, tmpdir], check=True)
+
+
+def run_static_analysis():
+    global filename, analyzer, e
+    try:
+        filename = os.path.basename(fpath)
+        rl_detector = RLScriptDetector()
+        if rl_detector.analyze(fpath):
+            tree = ast.parse(read_file(fpath))
+            analyzer = Analyzer()
+            analyzer.visit(tree)
+
+            detected_heuristics: List[Heuristic] = [
+                item for sublist in analyzer.get_report() for item in sublist
+            ]
+
+            if detected_heuristics:
+                reports.append(Report(filename, detected_heuristics))
+    except Exception as e:
+        st.error(f"Error analyzing {fpath}: {e}")
+
+
 if analyze_clicked:
     if not repo_url.strip():
         st.error("Please enter a GitHub repository URL")
     else:
-        # Clear previous results
         st.session_state.df = None
         st.session_state.repo_age_days = None
 
         with tempfile.TemporaryDirectory() as tmpdir:
             try:
-                st.info("Cloning repository... this may take a moment ⏳")
-                subprocess.run(["git", "clone", repo_url, tmpdir], check=True)
+                clone_repo()
 
-                # Fetch repository age
-                st.info("Fetching repository metadata... 📊")
-                repo_age = get_repo_age_days(repo_url)
+                st.info("📊 Fetching repository metadata... 📊")
+                repo_age = get_repo_last_update(repo_url)
                 if repo_age is not None:
                     st.session_state.repo_age_days = repo_age
 
                 reader = ProjectReader(tmpdir)
                 files = reader.list_files()
 
-                st.info("Running static analysis... 🔍")
+                st.info("🔍 Running static analysis... 🔍")
                 reports: List[Report] = []
 
                 for fpath in files:
-                    try:
-                        filename = os.path.basename(fpath)
-                        rl_detector = RLScriptDetector()
-                        if rl_detector.analyze(fpath):
-                            tree = ast.parse(read_file(fpath))
-                            analyzer = Analyzer()
-                            analyzer.visit(tree)
-
-                            detected_heuristics: List[Heuristic] = [
-                                item for sublist in analyzer.get_report() for item in sublist
-                            ]
-
-                            if detected_heuristics:
-                                reports.append(Report(filename, detected_heuristics))
-                    except Exception as e:
-                        st.error(f"Error analyzing {fpath}: {e}")
+                    run_static_analysis()
 
 
                 if reports:
@@ -118,16 +105,13 @@ if analyze_clicked:
             except subprocess.CalledProcessError as e:
                 st.error(f"Failed to clone repository: {e}")
 
-# Display results section - outside the analyze button to persist across reruns
 if st.session_state.df is not None:
-    # Display repository age if available
     if st.session_state.repo_age_days is not None:
-        st.info(f"📅 Repository age: {st.session_state.repo_age_days} days (based on last commit)")
+        st.info(f"📅 The repository has not been updated for: {st.session_state.repo_age_days} days 📅")
 
     st.subheader("Analysis Results")
     st.dataframe(st.session_state.df, width="stretch")
 
-    # CSV download
     csv = st.session_state.df.to_csv(index=False).encode("utf-8")
     st.download_button(
         label="📥 Download Full Report as CSV",
