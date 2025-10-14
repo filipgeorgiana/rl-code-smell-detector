@@ -170,3 +170,18 @@ if st.session_state.df is not None:
     category_table["Nr of Occurrences"] = category_table["Nr of Occurrences"].astype(str)
 
     st.table(category_table)
+
+    # Prepare CSV data with repository info
+    category_csv_data = category_counts.copy()
+    category_csv_data["Repository"] = repo_url
+    category_csv_data["Repository Age (days)"] = st.session_state.repo_age_days if st.session_state.repo_age_days is not None else "N/A"
+    # Reorder columns to put repo info first
+    category_csv_data = category_csv_data[["Repository", "Repository Age (days)", "Category", "Count", "Percentage"]]
+
+    category_csv = category_csv_data.to_csv(index=False).encode("utf-8")
+    st.download_button(
+        label="📥 Download Category Breakdown as CSV",
+        data=category_csv,
+        file_name="rl_code_smell_category_breakdown.csv",
+        mime="text/csv",
+    )
