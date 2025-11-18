@@ -11,7 +11,7 @@ from model.report import Report
 from model.heuristic import Heuristic
 from pre_processing import RLScriptDetector
 from project_reader import ProjectReader, read_file
-from github_utils import get_repo_last_update
+from github_utils import get_repo_age
 from ui_utils import reports_to_dataframe
 
 st.set_page_config(page_title="RL Code Smell Detector", layout="wide")
@@ -83,7 +83,7 @@ if analyze_clicked:
                 clone_repo()
 
                 st.info("📊 Fetching repository metadata... 📊")
-                repo_age = get_repo_last_update(repo_url)
+                repo_age = get_repo_age(repo_url)
                 if repo_age is not None:
                     st.session_state.repo_age_days = repo_age
 
