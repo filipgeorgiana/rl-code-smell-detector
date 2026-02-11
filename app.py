@@ -107,16 +107,21 @@ if analyze_clicked:
 
 if st.session_state.df is not None:
     if st.session_state.repo_age_days is not None:
-        st.info(f"📅 The repository has not been updated for: {st.session_state.repo_age_days} days 📅")
+        st.info(f"📅 Repository age: {st.session_state.repo_age_days} days (from first to last commit) 📅")
 
     st.subheader("Analysis Results")
     st.dataframe(st.session_state.df, width="stretch")
+
+    # Extract repository name from URL
+    repo_name = repo_url.rstrip("/").split("/")[-1]
+    if repo_name.endswith(".git"):
+        repo_name = repo_name[:-4]
 
     csv = st.session_state.df.to_csv(index=False).encode("utf-8")
     st.download_button(
         label="📥 Download Full Report as CSV",
         data=csv,
-        file_name="rl_code_smell_report.csv",
+        file_name=f"{repo_name}_full_report.csv",
         mime="text/csv",
     )
 
@@ -182,6 +187,6 @@ if st.session_state.df is not None:
     st.download_button(
         label="📥 Download Category Breakdown as CSV",
         data=category_csv,
-        file_name="rl_code_smell_category_breakdown.csv",
+        file_name=f"{repo_name}_category_report.csv",
         mime="text/csv",
     )
