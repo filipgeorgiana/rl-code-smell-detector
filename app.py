@@ -11,7 +11,7 @@ from model.report import Report
 from model.heuristic import Heuristic
 from pre_processing import RLScriptDetector
 from project_reader import ProjectReader, read_file
-from github_utils import get_repo_age
+from github_utils import get_repo_metadata
 from ui_utils import reports_to_dataframe
 
 st.set_page_config(page_title="RL Code Smell Detector", layout="wide")
@@ -20,8 +20,10 @@ st.write("Analyze a GitHub repository for RL-specific code smells.")
 
 if "df" not in st.session_state:
     st.session_state.df = None
-if "repo_age_days" not in st.session_state:
-    st.session_state.repo_age_days = None
+if "repo_metadata" not in st.session_state:
+    st.session_state.repo_metadata = None
+if "rl_libraries" not in st.session_state:
+    st.session_state.rl_libraries = set()
 if "selected_category" not in st.session_state:
     st.session_state.selected_category = None
 if "repo_url" not in st.session_state:
@@ -41,7 +43,8 @@ with clear_button:
 
 if clear_clicked:
     st.session_state.df = None
-    st.session_state.repo_age_days = None
+    st.session_state.repo_metadata = None
+    st.session_state.rl_libraries = set()
     st.session_state.selected_category = None
     st.rerun()
 
@@ -57,6 +60,8 @@ def run_static_analysis():
         filename = os.path.basename(fpath)
         rl_detector = RLScriptDetector()
         if rl_detector.analyze(fpath):
+            detected_rl_libs.update(rl_detector.rl_imports)
+
             tree = ast.parse(read_file(fpath))
             analyzer = Analyzer()
             analyzer.visit(tree)
@@ -76,26 +81,28 @@ if analyze_clicked:
         st.error("Please enter a GitHub repository URL")
     else:
         st.session_state.df = None
-        st.session_state.repo_age_days = None
+        st.session_state.repo_metadata = None
 
         with tempfile.TemporaryDirectory() as tmpdir:
             try:
                 clone_repo()
 
                 st.info("📊 Fetching repository metadata... 📊")
-                repo_age = get_repo_age(repo_url)
-                if repo_age is not None:
-                    st.session_state.repo_age_days = repo_age
+                metadata = get_repo_metadata(repo_url)
+                if metadata is not None:
+                    st.session_state.repo_metadata = metadata
 
                 reader = ProjectReader(tmpdir)
                 files = reader.list_files()
 
                 st.info("🔍 Running static analysis... 🔍")
                 reports: List[Report] = []
+                detected_rl_libs: set = set()
 
                 for fpath in files:
                     run_static_analysis()
 
+                st.session_state.rl_libraries = detected_rl_libs
 
                 if reports:
                     st.session_state.df = reports_to_dataframe(reports)
@@ -106,8 +113,23 @@ if analyze_clicked:
                 st.error(f"Failed to clone repository: {e}")
 
 if st.session_state.df is not None:
-    if st.session_state.repo_age_days is not None:
-        st.info(f"📅 Repository age: {st.session_state.repo_age_days} days (from first to last commit) 📅")
+    if st.session_state.repo_metadata is not None:
+        meta = st.session_state.repo_metadata
+        meta_parts = []
+        if meta.get('age_months') is not None:
+            meta_parts.append(f"Age: {meta['age_months']} months")
+        if meta.get('stars') is not None:
+            meta_parts.append(f"Stars: {meta['stars']}")
+        if meta.get('contributors') is not None:
+            meta_parts.append(f"Contributors: {meta['contributors']}")
+        if meta.get('size_kb') is not None:
+            meta_parts.append(f"Size: {meta['size_kb']} KB")
+        if meta.get('topics'):
+            meta_parts.append(f"Topics: {', '.join(meta['topics'])}")
+    if st.session_state.rl_libraries:
+        meta_parts.append(f"RL Libraries: {', '.join(sorted(st.session_state.rl_libraries))}")
+    if meta_parts:
+        st.info(f"📊 {' | '.join(meta_parts)} 📊")
 
     st.subheader("Analysis Results")
     st.dataframe(st.session_state.df, width="stretch")
@@ -179,9 +201,15 @@ if st.session_state.df is not None:
     # Prepare CSV data with repository info
     category_csv_data = category_counts.copy()
     category_csv_data["Repository"] = repo_url
-    category_csv_data["Repository Age (days)"] = st.session_state.repo_age_days if st.session_state.repo_age_days is not None else "N/A"
+    meta = st.session_state.repo_metadata
+    category_csv_data["Repository Age (months)"] = meta.get('age_months', 'N/A') if meta else "N/A"
+    category_csv_data["Stars"] = meta.get('stars', 'N/A') if meta else "N/A"
+    category_csv_data["Contributors"] = meta.get('contributors', 'N/A') if meta else "N/A"
+    category_csv_data["Size (KB)"] = meta.get('size_kb', 'N/A') if meta else "N/A"
+    category_csv_data["Topics"] = '; '.join(meta.get('topics', [])) if meta and meta.get('topics') else "N/A"
+    category_csv_data["RL Libraries"] = '; '.join(sorted(st.session_state.rl_libraries)) if st.session_state.rl_libraries else "N/A"
     # Reorder columns to put repo info first
-    category_csv_data = category_csv_data[["Repository", "Repository Age (days)", "Category", "Count", "Percentage"]]
+    category_csv_data = category_csv_data[["Repository", "Repository Age (months)", "Stars", "Contributors", "Size (KB)", "Topics", "RL Libraries", "Category", "Count", "Percentage"]]
 
     category_csv = category_csv_data.to_csv(index=False).encode("utf-8")
     st.download_button(

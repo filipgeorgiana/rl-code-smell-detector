@@ -12,7 +12,7 @@ class RLScriptDetector(ast.NodeVisitor):
         self.assignments = {}
 
         self.rl_libraries = {
-            "gym", "stable_baselines3", "sb3_contrib", "ray.rllib", "rlberry", "torchrl"
+            "gym", "stable_baselines3", "sb3_contrib", "ray.rllib", "rlberry", "torchrl", "torch"
         }
 
         self.rl_algorithms = {
