@@ -1,0 +1,19 @@
+File,Smell,Details,Line,Category,Is Code Smell
+environment_test.py,Environment Closed Detected,env,267.0,ENVIRONMENT,False
+environment_test.py,Environment Closed Detected,env,268.0,ENVIRONMENT,False
+environment_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+environment_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+environment_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+environment_test.py,Logging,No logging detected,,CODESTYLE,True
+rate_limit_wrapper_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+rate_limit_wrapper_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+rate_limit_wrapper_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+rate_limit_wrapper_test.py,Logging,No logging detected,,CODESTYLE,True
+base_wrapper_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+base_wrapper_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+base_wrapper_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+base_wrapper_test.py,Logging,No logging detected,,CODESTYLE,True
+run_acme_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+run_acme_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+run_acme_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+run_acme_agent.py,Logging,No logging detected,,CODESTYLE,True

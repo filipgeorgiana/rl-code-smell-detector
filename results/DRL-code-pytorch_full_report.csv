@@ -1,0 +1,42 @@
+File,Smell,Details,Line,Category,Is Code Smell
+PPO_discrete_main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+PPO_discrete_main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+PPO_discrete_main.py,Logging,No logging detected,,CODESTYLE,True
+TD3.py,Hardcoded hyperparameter,batch_size=256,93.0,HYPERPARAMETER,True
+TD3.py,Hardcoded hyperparameter,lr=0.0003,96.0,HYPERPARAMETER,True
+TD3.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+TD3.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+TD3.py,Logging,No logging detected,,CODESTYLE,True
+PPO_discrete_rnn_main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+PPO_discrete_rnn_main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+PPO_discrete_rnn_main.py,Logging,No logging detected,,CODESTYLE,True
+SAC-continuous.py,Hardcoded hyperparameter,batch_size=256,105.0,HYPERPARAMETER,True
+SAC-continuous.py,Hardcoded hyperparameter,lr=0.0003,108.0,HYPERPARAMETER,True
+SAC-continuous.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+SAC-continuous.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+SAC-continuous.py,Logging,call np.log,36.0,CODESTYLE,False
+SAC-continuous.py,Logging,call np.log,36.0,CODESTYLE,False
+REINFORCE.py,Hardcoded hyperparameter,lr=0.0004,26.0,HYPERPARAMETER,True
+REINFORCE.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+REINFORCE.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+REINFORCE.py,Logging,call torch.log,61.0,CODESTYLE,False
+REINFORCE_baseline.py,Hardcoded hyperparameter,lr=0.0004,38.0,HYPERPARAMETER,True
+REINFORCE_baseline.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+REINFORCE_baseline.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+REINFORCE_baseline.py,Logging,call torch.log,78.0,CODESTYLE,False
+A2C.py,Hardcoded hyperparameter,lr=0.0005,40.0,HYPERPARAMETER,True
+A2C.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+A2C.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+A2C.py,Logging,call torch.log,70.0,CODESTYLE,False
+PPO_continuous_main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+PPO_continuous_main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+PPO_continuous_main.py,Logging,No logging detected,,CODESTYLE,True
+DDPG.py,Hardcoded hyperparameter,batch_size=256,73.0,HYPERPARAMETER,True
+DDPG.py,Hardcoded hyperparameter,lr=0.0003,76.0,HYPERPARAMETER,True
+DDPG.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+DDPG.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+DDPG.py,Logging,No logging detected,,CODESTYLE,True
+Rainbow_DQN_main.py,Hardcoded hyperparameter,epsilon=0,65.0,HYPERPARAMETER,True
+Rainbow_DQN_main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+Rainbow_DQN_main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+Rainbow_DQN_main.py,Logging,No logging detected,,CODESTYLE,True

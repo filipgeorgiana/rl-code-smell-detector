@@ -1,0 +1,5 @@
+File,Smell,Details,Line,Category,Is Code Smell
+envs.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+envs.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+envs.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+envs.py,Logging,No logging detected,,CODESTYLE,True

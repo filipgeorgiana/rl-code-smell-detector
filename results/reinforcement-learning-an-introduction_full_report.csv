@@ -1,0 +1,15 @@
+File,Smell,Details,Line,Category,Is Code Smell
+short_corridor.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+short_corridor.py,Hardcoded hyperparameter,epsilon=0.05,87.0,HYPERPARAMETER,True
+short_corridor.py,Hardcoded hyperparameter,gamma_pow=1,118.0,HYPERPARAMETER,True
+short_corridor.py,Hardcoded hyperparameter,gamma_pow=1,148.0,HYPERPARAMETER,True
+short_corridor.py,Hardcoded hyperparameter,epsilon=0.05,188.0,HYPERPARAMETER,True
+short_corridor.py,Hardcoded hyperparameter,gamma=1,218.0,HYPERPARAMETER,True
+short_corridor.py,Hardcoded hyperparameter,gamma=1,247.0,HYPERPARAMETER,True
+short_corridor.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+short_corridor.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+short_corridor.py,Logging,No logging detected,,CODESTYLE,True
+lambda_effect.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+lambda_effect.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+lambda_effect.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+lambda_effect.py,Logging,No logging detected,,CODESTYLE,True

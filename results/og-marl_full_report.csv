@@ -1,0 +1,172 @@
+File,Smell,Details,Line,Category,Is Code Smell
+mpe_omar.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mpe_omar.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mpe_omar.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mpe_omar.py,Logging,No logging detected,,CODESTYLE,True
+gymnasium_mamujoco.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gymnasium_mamujoco.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gymnasium_mamujoco.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gymnasium_mamujoco.py,Logging,No logging detected,,CODESTYLE,True
+mamujoco.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mamujoco.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mamujoco.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mamujoco.py,Logging,No logging detected,,CODESTYLE,True
+rware_alberdice.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+rware_alberdice.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+rware_alberdice.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+rware_alberdice.py,Logging,No logging detected,,CODESTYLE,True
+mamujoco_omiga.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mamujoco_omiga.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mamujoco_omiga.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mamujoco_omiga.py,Logging,No logging detected,,CODESTYLE,True
+mujoco_multi.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mujoco_multi.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mujoco_multi.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mujoco_multi.py,Logging,No logging detected,,CODESTYLE,True
+StarCraft2_Env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+StarCraft2_Env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+StarCraft2_Env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+StarCraft2_Env.py,Logging,call logging.debug,450.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,502.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,620.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,664.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,672.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,683.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,694.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,705.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,716.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,738.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.info,927.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1155.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1156.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1157.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1158.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1159.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1160.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1346.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1347.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1348.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1349.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1351.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1544.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1545.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1546.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1547.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1548.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1549.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call self._controller.debug,1922.0,CODESTYLE,False
+StarCraft2_Env.py,Logging,call logging.debug,1941.0,CODESTYLE,False
+warehouse_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+warehouse_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+warehouse_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+warehouse_env.py,Logging,No logging detected,,CODESTYLE,True
+environment.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+environment.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+environment.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+environment.py,Logging,No logging detected,,CODESTYLE,True
+interactive.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+interactive.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+interactive.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+interactive.py,Logging,No logging detected,,CODESTYLE,True
+evaluator.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+evaluator.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+evaluator.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+evaluator.py,Logging,No logging detected,,CODESTYLE,True
+gym.py,Environment Closed Detected,env,411.0,ENVIRONMENT,False
+gym.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gym.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gym.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gym.py,Logging,No logging detected,,CODESTYLE,True
+discrete_oryx.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+discrete_oryx.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+discrete_oryx.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+discrete_oryx.py,Logging,call jnp.log,285.0,CODESTYLE,False
+discrete_oryx.py,Logging,call jnp.log,285.0,CODESTYLE,False
+discrete_oryx.py,Logging,call jnp.log,285.0,CODESTYLE,False
+discrete_oryx.py,Logging,call logger.log,532.0,CODESTYLE,False
+discrete_oryx.py,Logging,call logger.log,543.0,CODESTYLE,False
+discrete_oryx.py,Logging,call logger.log,551.0,CODESTYLE,False
+discrete_oryx.py,Logging,call logger.log,565.0,CODESTYLE,False
+cont_oryx.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+cont_oryx.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+cont_oryx.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+cont_oryx.py,Logging,call logger.log,523.0,CODESTYLE,False
+cont_oryx.py,Logging,call logger.log,534.0,CODESTYLE,False
+cont_oryx.py,Logging,call logger.log,542.0,CODESTYLE,False
+cont_oryx.py,Logging,call logger.log,555.0,CODESTYLE,False
+iddpg.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iddpg.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iddpg.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iddpg.py,Logging,No logging detected,,CODESTYLE,True
+iql.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iql.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iql.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iql.py,Logging,call tf.math.log,149.0,CODESTYLE,False
+maddpg.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+maddpg.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+maddpg.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+maddpg.py,Logging,No logging detected,,CODESTYLE,True
+qmix.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+qmix.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+qmix.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+qmix.py,Logging,call tf.math.log,155.0,CODESTYLE,False
+discrete_bc.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+discrete_bc.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+discrete_bc.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+discrete_bc.py,Logging,No logging detected,,CODESTYLE,True
+omar.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+omar.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+omar.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+omar.py,Logging,call tf.math.log,275.0,CODESTYLE,False
+omar.py,Logging,call tf.math.log,300.0,CODESTYLE,False
+iddpg_cql.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iddpg_cql.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iddpg_cql.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iddpg_cql.py,Logging,call tf.math.log,280.0,CODESTYLE,False
+iddpg_cql.py,Logging,call tf.math.log,305.0,CODESTYLE,False
+continuous_bc.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+continuous_bc.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+continuous_bc.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+continuous_bc.py,Logging,No logging detected,,CODESTYLE,True
+maicq.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+maicq.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+maicq.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+maicq.py,Logging,call tf.math.log,251.0,CODESTYLE,False
+maddpg_cql.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+maddpg_cql.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+maddpg_cql.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+maddpg_cql.py,Logging,call tf.math.log,262.0,CODESTYLE,False
+maddpg_cql.py,Logging,call tf.math.log,291.0,CODESTYLE,False
+iddpg_bc.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iddpg_bc.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iddpg_bc.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iddpg_bc.py,Logging,No logging detected,,CODESTYLE,True
+iql_cql.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iql_cql.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iql_cql.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iql_cql.py,Logging,No logging detected,,CODESTYLE,True
+qmix_cql.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+qmix_cql.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+qmix_cql.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+qmix_cql.py,Logging,No logging detected,,CODESTYLE,True
+iql_bcq.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iql_bcq.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iql_bcq.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iql_bcq.py,Logging,No logging detected,,CODESTYLE,True
+qmix_bcq.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+qmix_bcq.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+qmix_bcq.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+qmix_bcq.py,Logging,No logging detected,,CODESTYLE,True
+maddpg_cql.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+maddpg_cql.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+maddpg_cql.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+maddpg_cql.py,Logging,call np.log,266.0,CODESTYLE,False
+maddpg_cql.py,Logging,call torch.log,291.0,CODESTYLE,False
+iddpg_bc.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iddpg_bc.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iddpg_bc.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iddpg_bc.py,Logging,No logging detected,,CODESTYLE,True
+iql_cql.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iql_cql.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iql_cql.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iql_cql.py,Logging,No logging detected,,CODESTYLE,True

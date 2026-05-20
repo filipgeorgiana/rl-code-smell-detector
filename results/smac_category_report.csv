@@ -1,0 +1,5 @@
+Repository,Repository Age (months),Stars,Contributors,Size (KB),Topics,RL Libraries,Category,Count,Percentage
+https://github.com/oxwhirl/smac,85,1325,17,2644,benchmark; machine-learning; multiagent-systems; reinforcement-learning; starcraft-ii,gym.spaces; gymnasium; gymnasium.utils,TRAINING,5,27.78
+https://github.com/oxwhirl/smac,85,1325,17,2644,benchmark; machine-learning; multiagent-systems; reinforcement-learning; starcraft-ii,gym.spaces; gymnasium; gymnasium.utils,EVALUATION,5,27.78
+https://github.com/oxwhirl/smac,85,1325,17,2644,benchmark; machine-learning; multiagent-systems; reinforcement-learning; starcraft-ii,gym.spaces; gymnasium; gymnasium.utils,HYPERPARAMETER,4,22.22
+https://github.com/oxwhirl/smac,85,1325,17,2644,benchmark; machine-learning; multiagent-systems; reinforcement-learning; starcraft-ii,gym.spaces; gymnasium; gymnasium.utils,CODESTYLE,4,22.22

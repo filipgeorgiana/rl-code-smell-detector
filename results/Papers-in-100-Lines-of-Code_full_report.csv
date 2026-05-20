@@ -1,0 +1,19 @@
+File,Smell,Details,Line,Category,Is Code Smell
+ddqn.py,Environment Closed Detected,env,133.0,ENVIRONMENT,False
+ddqn.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ddqn.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ddqn.py,Logging,No logging detected,,CODESTYLE,True
+ddqn.py,Random behavior detected for sampling,env.action_space.sample(),63.0,AGENT,True
+ppo.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo.py,Logging,No logging detected,,CODESTYLE,True
+dqn.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dqn.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dqn.py,Logging,No logging detected,,CODESTYLE,True
+dqn.py,Random behavior detected for sampling,env.action_space.sample(),66.0,AGENT,True
+dqn.py,Environment Closed Detected,env,117.0,ENVIRONMENT,False
+dqn.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dqn.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dqn.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dqn.py,Logging,No logging detected,,CODESTYLE,True
+dqn.py,Random behavior detected for sampling,env.action_space.sample(),58.0,AGENT,True

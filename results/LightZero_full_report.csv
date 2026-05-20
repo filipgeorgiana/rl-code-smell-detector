@@ -1,0 +1,689 @@
+File,Smell,Details,Line,Category,Is Code Smell
+minigrid_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+minigrid_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+minigrid_lightzero_env.py,Logging,No logging detected,,CODESTYLE,True
+minigrid_lightzero_env.py,Random behavior detected for sampling,self.action_space.sample(),211.0,AGENT,True
+memory_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+memory_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+memory_lightzero_env.py,Logging,No logging detected,,CODESTYLE,True
+memory_lightzero_env.py,Random behavior detected for sampling,self.action_space.sample(),261.0,AGENT,True
+test_render.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_render.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_render.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_render.py,Logging,No logging detected,,CODESTYLE,True
+test_memory_lightzero_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_memory_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_memory_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_memory_lightzero_env.py,Logging,No logging detected,,CODESTYLE,True
+dmc2gym_state_suz_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dmc2gym_state_suz_config.py,Hardcoded hyperparameter,batch_size=64,26.0,HYPERPARAMETER,True
+dmc2gym_state_suz_config.py,Hardcoded hyperparameter,reanalyze_batch_size=160,35.0,HYPERPARAMETER,True
+dmc2gym_state_suz_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dmc2gym_state_suz_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dmc2gym_state_suz_config.py,Logging,No logging detected,,CODESTYLE,True
+dmc2gym_pixels_suz_segment_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dmc2gym_pixels_suz_segment_config.py,Hardcoded hyperparameter,batch_size=64,26.0,HYPERPARAMETER,True
+dmc2gym_pixels_suz_segment_config.py,Hardcoded hyperparameter,reanalyze_batch_size=160,35.0,HYPERPARAMETER,True
+dmc2gym_pixels_suz_segment_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dmc2gym_pixels_suz_segment_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dmc2gym_pixels_suz_segment_config.py,Logging,No logging detected,,CODESTYLE,True
+dmc2gym_pixels_suz_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dmc2gym_pixels_suz_config.py,Hardcoded hyperparameter,batch_size=64,26.0,HYPERPARAMETER,True
+dmc2gym_pixels_suz_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dmc2gym_pixels_suz_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dmc2gym_pixels_suz_config.py,Logging,No logging detected,,CODESTYLE,True
+dmc2gym_pixels_sez_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dmc2gym_pixels_sez_config.py,Hardcoded hyperparameter,batch_size=256,23.0,HYPERPARAMETER,True
+dmc2gym_pixels_sez_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dmc2gym_pixels_sez_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dmc2gym_pixels_sez_config.py,Logging,No logging detected,,CODESTYLE,True
+dmc2gym_pixels_smz_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dmc2gym_pixels_smz_config.py,Hardcoded hyperparameter,batch_size=256,22.0,HYPERPARAMETER,True
+dmc2gym_pixels_smz_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dmc2gym_pixels_smz_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dmc2gym_pixels_smz_config.py,Logging,No logging detected,,CODESTYLE,True
+dmc2gym_state_smz_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dmc2gym_state_smz_config.py,Hardcoded hyperparameter,batch_size=1024,22.0,HYPERPARAMETER,True
+dmc2gym_state_smz_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dmc2gym_state_smz_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dmc2gym_state_smz_config.py,Logging,No logging detected,,CODESTYLE,True
+dmc2gym_state_suz_multitask_ddp_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dmc2gym_state_suz_multitask_ddp_config.py,Hardcoded hyperparameter,reanalyze_batch_size=160,415.0,HYPERPARAMETER,True
+dmc2gym_state_suz_multitask_ddp_config.py,Hardcoded hyperparameter,total_batch_size=512,419.0,HYPERPARAMETER,True
+dmc2gym_state_suz_multitask_ddp_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dmc2gym_state_suz_multitask_ddp_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dmc2gym_state_suz_multitask_ddp_config.py,Logging,No logging detected,,CODESTYLE,True
+dmc2gym_state_suz_multitask_ddp_balance_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dmc2gym_state_suz_multitask_ddp_balance_config.py,Hardcoded hyperparameter,total_batch_size=512,468.0,HYPERPARAMETER,True
+dmc2gym_state_suz_multitask_ddp_balance_config.py,Hardcoded hyperparameter,reanalyze_batch_size=160,474.0,HYPERPARAMETER,True
+dmc2gym_state_suz_multitask_ddp_balance_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dmc2gym_state_suz_multitask_ddp_balance_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dmc2gym_state_suz_multitask_ddp_balance_config.py,Logging,No logging detected,,CODESTYLE,True
+dmc2gym_state_sez_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dmc2gym_state_sez_config.py,Hardcoded hyperparameter,batch_size=1024,23.0,HYPERPARAMETER,True
+dmc2gym_state_sez_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dmc2gym_state_sez_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dmc2gym_state_sez_config.py,Logging,No logging detected,,CODESTYLE,True
+dmc2gym_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dmc2gym_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dmc2gym_lightzero_env.py,Logging,logging library imported logging,21.0,CODESTYLE,False
+dmc2gym_lightzero_env.py,Logging,call logging.info,421.0,CODESTYLE,False
+dmc2gym_lightzero_env.py,Random behavior detected for sampling,self.action_space.sample(),467.0,AGENT,True
+test_dmc2gym_env.py,Environment Closed Detected,env,48.0,ENVIRONMENT,False
+test_dmc2gym_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_dmc2gym_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_dmc2gym_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_dmc2gym_env.py,Logging,No logging detected,,CODESTYLE,True
+test_dmc2gym_env.py,Random behavior detected for sampling,env.action_space.sample(),34.0,AGENT,True
+test_jericho_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_jericho_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_jericho_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_jericho_env.py,Logging,No logging detected,,CODESTYLE,True
+jericho_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+jericho_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+jericho_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+jericho_env.py,Logging,logging library imported logging,1.0,CODESTYLE,False
+jericho_env.py,Logging,call logging.info,423.0,CODESTYLE,False
+atari_muzero_rnn_fullobs_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+atari_muzero_rnn_fullobs_config.py,Hardcoded hyperparameter,batch_size=256,19.0,HYPERPARAMETER,True
+atari_muzero_rnn_fullobs_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+atari_muzero_rnn_fullobs_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+atari_muzero_rnn_fullobs_config.py,Logging,No logging detected,,CODESTYLE,True
+test_atari_lightzero_env_visualization.py,Environment Closed Detected,env,22.0,ENVIRONMENT,False
+test_atari_lightzero_env_visualization.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_atari_lightzero_env_visualization.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_atari_lightzero_env_visualization.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_atari_lightzero_env_visualization.py,Logging,No logging detected,,CODESTYLE,True
+test_atari_lightzero_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_atari_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_atari_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_atari_lightzero_env.py,Logging,No logging detected,,CODESTYLE,True
+atari_wrappers.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+atari_wrappers.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+atari_wrappers.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+atari_wrappers.py,Logging,No logging detected,,CODESTYLE,True
+atari_lightzero_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+atari_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+atari_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+atari_lightzero_env.py,Logging,call logging.info,187.0,CODESTYLE,False
+atari_lightzero_env.py,Logging,call logging.debug,189.0,CODESTYLE,False
+mujoco_lightzero_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mujoco_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mujoco_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mujoco_lightzero_env.py,Logging,No logging detected,,CODESTYLE,True
+mujoco_disc_lightzero_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mujoco_disc_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mujoco_disc_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mujoco_disc_lightzero_env.py,Logging,No logging detected,,CODESTYLE,True
+mtcar_lightzero_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mtcar_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mtcar_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mtcar_lightzero_env.py,Logging,No logging detected,,CODESTYLE,True
+mtcar_lightzero_env.py,Random behavior detected for sampling,self.action_space.sample(),120.0,AGENT,True
+test_mtcar_env.py,Environment Closed Detected,env,35.0,ENVIRONMENT,False
+test_mtcar_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_mtcar_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_mtcar_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_mtcar_env.py,Logging,No logging detected,,CODESTYLE,True
+test_mtcar_env.py,Random behavior detected for sampling,env.action_space.sample(),22.0,AGENT,True
+pendulum_lightzero_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pendulum_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pendulum_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pendulum_lightzero_env.py,Logging,No logging detected,,CODESTYLE,True
+pendulum_lightzero_env.py,Random behavior detected for sampling,self.action_space.sample(),162.0,AGENT,True
+pendulum_lightzero_env.py,Random behavior detected for sampling,self.action_space.sample(),164.0,AGENT,True
+cartpole_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+cartpole_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+cartpole_lightzero_env.py,Logging,No logging detected,,CODESTYLE,True
+cartpole_lightzero_env.py,Random behavior detected for sampling,self.action_space.sample(),219.0,AGENT,True
+2048_bot_eval.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+2048_bot_eval.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+2048_bot_eval.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+2048_bot_eval.py,Logging,No logging detected,,CODESTYLE,True
+game_2048_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+game_2048_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+game_2048_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+game_2048_env.py,Logging,logging library imported logging,2.0,CODESTYLE,False
+game_2048_env.py,Logging,call logging.warning,271.0,CODESTYLE,False
+game_2048_env.py,Logging,call logging.debug,376.0,CODESTYLE,False
+game_2048_env.py,Logging,call logging.debug,534.0,CODESTYLE,False
+game_2048_env.py,Logging,call logging.debug,563.0,CODESTYLE,False
+game_2048_env.py,Logging,call logging.info,731.0,CODESTYLE,False
+game_2048_env.py,Random behavior detected for sampling,self.action_space.sample(),608.0,AGENT,True
+bsuite_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+bsuite_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+bsuite_lightzero_env.py,Logging,No logging detected,,CODESTYLE,True
+bsuite_lightzero_env.py,Random behavior detected for sampling,self.action_space.sample(),201.0,AGENT,True
+test_speed_win_rate_between_bots.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_speed_win_rate_between_bots.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_speed_win_rate_between_bots.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_speed_win_rate_between_bots.py,Logging,No logging detected,,CODESTYLE,True
+alphabeta_pruning_bot.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+alphabeta_pruning_bot.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+alphabeta_pruning_bot.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+alphabeta_pruning_bot.py,Logging,No logging detected,,CODESTYLE,True
+test_bots.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_bots.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_bots.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_bots.py,Logging,No logging detected,,CODESTYLE,True
+test_connect4_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_connect4_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_connect4_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_connect4_env.py,Logging,No logging detected,,CODESTYLE,True
+connect4_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+connect4_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+connect4_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+connect4_env.py,Logging,call logging.warning,170.0,CODESTYLE,False
+connect4_env.py,Logging,call logging.info,490.0,CODESTYLE,False
+go_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+go_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+go_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+go_env.py,Logging,No logging detected,,CODESTYLE,True
+test_go_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_go_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_go_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_go_env.py,Logging,No logging detected,,CODESTYLE,True
+test_tictactoe_mcts_bot.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_tictactoe_mcts_bot.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_tictactoe_mcts_bot.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_tictactoe_mcts_bot.py,Logging,No logging detected,,CODESTYLE,True
+dummy_any_game_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dummy_any_game_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dummy_any_game_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dummy_any_game_env.py,Logging,No logging detected,,CODESTYLE,True
+test_tictactoe_alphabeta_prunning_bot.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_tictactoe_alphabeta_prunning_bot.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_tictactoe_alphabeta_prunning_bot.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_tictactoe_alphabeta_prunning_bot.py,Logging,No logging detected,,CODESTYLE,True
+test_tictactoe_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_tictactoe_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_tictactoe_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_tictactoe_env.py,Logging,No logging detected,,CODESTYLE,True
+chess_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+chess_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+chess_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+chess_env.py,Logging,No logging detected,,CODESTYLE,True
+eval_chess_env_human.py,Environment Closed Detected,env,45.0,ENVIRONMENT,False
+eval_chess_env_human.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+eval_chess_env_human.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+eval_chess_env_human.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+eval_chess_env_human.py,Logging,No logging detected,,CODESTYLE,True
+test_chess_env_auto.py,Environment Closed Detected,env,40.0,ENVIRONMENT,False
+test_chess_env_auto.py,Environment Closed Detected,env,74.0,ENVIRONMENT,False
+test_chess_env_auto.py,Environment Closed Detected,env,108.0,ENVIRONMENT,False
+test_chess_env_auto.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_chess_env_auto.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_chess_env_auto.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_chess_env_auto.py,Logging,No logging detected,,CODESTYLE,True
+chess_lightzero_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+chess_lightzero_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+chess_lightzero_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+chess_lightzero_env.py,Logging,logging library imported logging,2.0,CODESTYLE,False
+chess_lightzero_env.py,Logging,call logging.warning,253.0,CODESTYLE,False
+test_chess_env_human.py,Environment Closed Detected,env,41.0,ENVIRONMENT,False
+test_chess_env_human.py,Environment Closed Detected,env,75.0,ENVIRONMENT,False
+test_chess_env_human.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_chess_env_human.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_chess_env_human.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_chess_env_human.py,Logging,No logging detected,,CODESTYLE,True
+test_gomoku_env_legal_actions.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_gomoku_env_legal_actions.py,Hardcoded hyperparameter,gomoku_env_legal_actions_cython_lru=0,35.0,HYPERPARAMETER,True
+test_gomoku_env_legal_actions.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_gomoku_env_legal_actions.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_gomoku_env_legal_actions.py,Logging,No logging detected,,CODESTYLE,True
+gomoku_alphazero_bot_mode_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gomoku_alphazero_bot_mode_config.py,Hardcoded hyperparameter,batch_size=256,12.0,HYPERPARAMETER,True
+gomoku_alphazero_bot_mode_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gomoku_alphazero_bot_mode_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gomoku_alphazero_bot_mode_config.py,Logging,No logging detected,,CODESTYLE,True
+gomoku_sampled_alphazero_bot_mode_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gomoku_sampled_alphazero_bot_mode_config.py,Hardcoded hyperparameter,batch_size=256,16.0,HYPERPARAMETER,True
+gomoku_sampled_alphazero_bot_mode_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gomoku_sampled_alphazero_bot_mode_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gomoku_sampled_alphazero_bot_mode_config.py,Logging,No logging detected,,CODESTYLE,True
+gomoku_gumbel_alphazero_bot_mode_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gomoku_gumbel_alphazero_bot_mode_config.py,Hardcoded hyperparameter,batch_size=256,12.0,HYPERPARAMETER,True
+gomoku_gumbel_alphazero_bot_mode_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gomoku_gumbel_alphazero_bot_mode_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gomoku_gumbel_alphazero_bot_mode_config.py,Logging,No logging detected,,CODESTYLE,True
+gomoku_alphazero_sp_mode_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gomoku_alphazero_sp_mode_config.py,Hardcoded hyperparameter,batch_size=256,12.0,HYPERPARAMETER,True
+gomoku_alphazero_sp_mode_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gomoku_alphazero_sp_mode_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gomoku_alphazero_sp_mode_config.py,Logging,No logging detected,,CODESTYLE,True
+gomoku_sampled_alphazero_sp_mode_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gomoku_sampled_alphazero_sp_mode_config.py,Hardcoded hyperparameter,batch_size=256,12.0,HYPERPARAMETER,True
+gomoku_sampled_alphazero_sp_mode_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gomoku_sampled_alphazero_sp_mode_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gomoku_sampled_alphazero_sp_mode_config.py,Logging,No logging detected,,CODESTYLE,True
+test_gomoku_alphabeta_pruning_bot.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_gomoku_alphabeta_pruning_bot.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_gomoku_alphabeta_pruning_bot.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_gomoku_alphabeta_pruning_bot.py,Logging,No logging detected,,CODESTYLE,True
+test_gomoku_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_gomoku_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_gomoku_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_gomoku_env.py,Logging,No logging detected,,CODESTYLE,True
+test_gomoku_rule_bot_v1.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_gomoku_rule_bot_v1.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_gomoku_rule_bot_v1.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_gomoku_rule_bot_v1.py,Logging,No logging detected,,CODESTYLE,True
+test_gomoku_rule_bot_v0.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_gomoku_rule_bot_v0.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_gomoku_rule_bot_v0.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_gomoku_rule_bot_v0.py,Logging,No logging detected,,CODESTYLE,True
+test_gomoku_mcts_bot.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_gomoku_mcts_bot.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_gomoku_mcts_bot.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_gomoku_mcts_bot.py,Logging,No logging detected,,CODESTYLE,True
+gomoku_human_vs_bot_UI.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gomoku_human_vs_bot_UI.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gomoku_human_vs_bot_UI.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gomoku_human_vs_bot_UI.py,Logging,No logging detected,,CODESTYLE,True
+datatypes.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+datatypes.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+datatypes.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+datatypes.py,Logging,No logging detected,,CODESTYLE,True
+sum_to_three_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sum_to_three_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sum_to_three_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sum_to_three_env.py,Logging,No logging detected,,CODESTYLE,True
+speed.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+speed.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+speed.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+speed.py,Logging,No logging detected,,CODESTYLE,True
+bipedalwalker_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+bipedalwalker_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+bipedalwalker_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+bipedalwalker_env.py,Logging,No logging detected,,CODESTYLE,True
+bipedalwalker_env.py,Random behavior detected for sampling,self.action_space.sample(),187.0,AGENT,True
+bipedalwalker_cont_disc_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+bipedalwalker_cont_disc_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+bipedalwalker_cont_disc_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+bipedalwalker_cont_disc_env.py,Logging,No logging detected,,CODESTYLE,True
+lunarlander_disc_efficientzero_config.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+lunarlander_disc_efficientzero_config.py,Hardcoded hyperparameter,batch_size=256,13.0,HYPERPARAMETER,True
+lunarlander_disc_efficientzero_config.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+lunarlander_disc_efficientzero_config.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+lunarlander_disc_efficientzero_config.py,Logging,No logging detected,,CODESTYLE,True
+lunarlander_cont_disc_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+lunarlander_cont_disc_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+lunarlander_cont_disc_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+lunarlander_cont_disc_env.py,Logging,No logging detected,,CODESTYLE,True
+test_lunarlander_env.py,Environment Closed Detected,env,50.0,ENVIRONMENT,False
+test_lunarlander_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_lunarlander_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_lunarlander_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_lunarlander_env.py,Logging,No logging detected,,CODESTYLE,True
+lunarlander_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+lunarlander_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+lunarlander_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+lunarlander_env.py,Logging,No logging detected,,CODESTYLE,True
+lunarlander_env.py,Random behavior detected for sampling,self.action_space.sample(),187.0,AGENT,True
+metadrive_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+metadrive_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+metadrive_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+metadrive_env.py,Logging,No logging detected,,CODESTYLE,True
+train_unizero_multitask_segment_ddp.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_unizero_multitask_segment_ddp.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_unizero_multitask_segment_ddp.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,109.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,110.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,111.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,112.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.warning,149.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,153.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,188.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,197.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,199.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,284.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.warning,295.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,329.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,330.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.warning,339.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,345.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.error,348.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,351.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,352.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,353.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,354.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,360.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,376.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,377.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,380.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,387.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,389.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.error,391.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,400.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,405.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,414.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,416.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.warning,425.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,446.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,448.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.error,453.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,482.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,483.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.warning,489.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,533.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.warning,536.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.error,543.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,561.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.error,563.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.info,583.0,CODESTYLE,False
+train_unizero_multitask_segment_ddp.py,Logging,call logging.error,587.0,CODESTYLE,False
+eval_muzero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+eval_muzero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+eval_muzero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+eval_muzero.py,Logging,No logging detected,,CODESTYLE,True
+train_unizero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_unizero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_unizero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_unizero.py,Logging,call logging.info,59.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,68.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,85.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,93.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,96.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,98.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,102.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,104.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,124.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,126.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,165.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,167.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,169.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,174.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.error,190.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.warning,201.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,230.0,CODESTYLE,False
+train_unizero.py,Logging,call logging.info,236.0,CODESTYLE,False
+train_unizero_segment.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_unizero_segment.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_unizero_segment.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_unizero_segment.py,Logging,call logging.info,66.0,CODESTYLE,False
+train_unizero_segment.py,Logging,call logging.info,84.0,CODESTYLE,False
+train_unizero_segment.py,Logging,call logging.info,86.0,CODESTYLE,False
+train_unizero_segment.py,Logging,call logging.info,180.0,CODESTYLE,False
+train_unizero_segment.py,Logging,call logging.info,181.0,CODESTYLE,False
+train_unizero_segment.py,Logging,call logging.warning,190.0,CODESTYLE,False
+train_unizero_segment.py,Logging,call logging.info,204.0,CODESTYLE,False
+train_unizero_segment.py,Logging,call logging.info,205.0,CODESTYLE,False
+eval_alphazero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+eval_alphazero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+eval_alphazero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+eval_alphazero.py,Logging,No logging detected,,CODESTYLE,True
+train_unizero_with_loss_landscape.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_unizero_with_loss_landscape.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_unizero_with_loss_landscape.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_unizero_with_loss_landscape.py,Logging,call logging.info,61.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,70.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,87.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,95.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,98.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,100.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,104.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,106.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,127.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,129.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,169.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.warning,186.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,195.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,196.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,197.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,224.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,234.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,244.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,249.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.warning,251.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,255.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.warning,257.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,259.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,260.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,261.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,262.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,266.0,CODESTYLE,False
+train_unizero_with_loss_landscape.py,Logging,call logging.info,273.0,CODESTYLE,False
+train_alphazero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_alphazero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_alphazero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_alphazero.py,Logging,call logging.warning,135.0,CODESTYLE,False
+train_muzero_segment.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_muzero_segment.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_muzero_segment.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_muzero_segment.py,Logging,call logging.info,201.0,CODESTYLE,False
+train_muzero_segment.py,Logging,call logging.info,202.0,CODESTYLE,False
+train_muzero_segment.py,Logging,call logging.info,214.0,CODESTYLE,False
+train_muzero_segment.py,Logging,call logging.warning,220.0,CODESTYLE,False
+train_muzero_segment.py,Logging,call logging.info,238.0,CODESTYLE,False
+train_muzero_segment.py,Logging,call logging.info,247.0,CODESTYLE,False
+train_muzero_segment.py,Logging,call logging.info,249.0,CODESTYLE,False
+train_muzero_with_gym_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_muzero_with_gym_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_muzero_with_gym_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_muzero_with_gym_env.py,Logging,call logging.warning,166.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_muzero_multitask_segment_ddp.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_muzero_multitask_segment_ddp.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_muzero_multitask_segment_ddp.py,Logging,call logging.warning,77.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.info,106.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.info,124.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.info,126.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.warning,211.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.info,276.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.info,280.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.info,307.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.warning,313.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.warning,337.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.info,373.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.info,389.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.info,398.0,CODESTYLE,False
+train_muzero_multitask_segment_ddp.py,Logging,call logging.error,402.0,CODESTYLE,False
+train_muzero_with_reward_model.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_muzero_with_reward_model.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_muzero_with_reward_model.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_muzero_with_reward_model.py,Logging,call logging.warning,191.0,CODESTYLE,False
+train_rezero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_rezero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_rezero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_rezero.py,Logging,call logging.info,173.0,CODESTYLE,False
+train_rezero.py,Logging,call logging.info,184.0,CODESTYLE,False
+train_rezero.py,Logging,call logging.warning,194.0,CODESTYLE,False
+train_rezero.py,Logging,call logging.info,221.0,CODESTYLE,False
+train_rezero.py,Logging,call logging.info,228.0,CODESTYLE,False
+train_rezero.py,Logging,call logging.info,230.0,CODESTYLE,False
+train_muzero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_muzero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_muzero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_muzero.py,Logging,call logging.warning,203.0,CODESTYLE,False
+train_muzero.py,Logging,call logging.info,222.0,CODESTYLE,False
+train_muzero.py,Logging,call logging.info,231.0,CODESTYLE,False
+train_muzero.py,Logging,call logging.info,233.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_unizero_multitask_balance_segment_ddp.py,Hardcoded hyperparameter,batch_size=2,510.0,HYPERPARAMETER,True
+train_unizero_multitask_balance_segment_ddp.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_unizero_multitask_balance_segment_ddp.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,64.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,115.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,118.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,122.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,126.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,129.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,133.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,141.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.error,222.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,224.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.warning,239.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,245.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,266.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,267.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,268.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,269.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,270.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,271.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,274.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,276.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,280.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,281.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,282.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.warning,284.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.warning,285.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.warning,286.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.warning,287.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.warning,305.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,353.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,364.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.warning,374.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,387.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,393.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,396.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.warning,399.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,403.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,413.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,437.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,441.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,453.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.warning,493.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,503.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.warning,538.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.warning,564.0,CODESTYLE,False
+train_unizero_multitask_balance_segment_ddp.py,Logging,call logging.info,567.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_unizero_multitask_segment_eval.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_unizero_multitask_segment_eval.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_unizero_multitask_segment_eval.py,Logging,call logging.warning,80.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.info,85.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.info,99.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.info,109.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.info,111.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.info,175.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.info,201.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.warning,204.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.info,206.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.info,209.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.info,228.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.info,230.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.error,241.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.info,263.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.warning,270.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.error,283.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.warning,286.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.error,295.0,CODESTYLE,False
+train_unizero_multitask_segment_eval.py,Logging,call logging.info,299.0,CODESTYLE,False
+eval_muzero_with_gym_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+eval_muzero_with_gym_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+eval_muzero_with_gym_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+eval_muzero_with_gym_env.py,Logging,No logging detected,,CODESTYLE,True
+sampled_efficientzero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sampled_efficientzero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sampled_efficientzero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sampled_efficientzero.py,Logging,call logging.warning,245.0,CODESTYLE,False
+gumbel_muzero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gumbel_muzero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gumbel_muzero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gumbel_muzero.py,Logging,call logging.warning,245.0,CODESTYLE,False
+efficientzero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+efficientzero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+efficientzero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+efficientzero.py,Logging,call logging.warning,245.0,CODESTYLE,False
+sampled_alphazero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sampled_alphazero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sampled_alphazero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sampled_alphazero.py,Logging,call logging.warning,211.0,CODESTYLE,False
+alphazero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+alphazero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+alphazero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+alphazero.py,Logging,call logging.warning,211.0,CODESTYLE,False
+muzero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+muzero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+muzero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+muzero.py,Logging,call logging.warning,245.0,CODESTYLE,False
+gym_cartpole_v0.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gym_cartpole_v0.py,Hardcoded hyperparameter,batch_size=256,11.0,HYPERPARAMETER,True
+gym_cartpole_v0.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gym_cartpole_v0.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gym_cartpole_v0.py,Logging,No logging detected,,CODESTYLE,True
+common.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+common.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+common.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+common.py,Logging,call logging.warning,62.0,CODESTYLE,False
+common.py,Logging,call logging.warning,293.0,CODESTYLE,False
+common.py,Logging,call logging.info,376.0,CODESTYLE,False
+common.py,Logging,call logging.info,507.0,CODESTYLE,False
+common.py,Logging,call logging.info,598.0,CODESTYLE,False
+common.py,Logging,call logging.info,599.0,CODESTYLE,False
+muzero_collector.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+muzero_collector.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+muzero_collector.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+muzero_collector.py,Logging,call self._logger.debug,126.0,CODESTYLE,False
+muzero_collector.py,Logging,call self._logger.warning,350.0,CODESTYLE,False
+muzero_collector.py,Logging,call self._logger.info,465.0,CODESTYLE,False
+muzero_collector.py,Logging,call self._logger.warning,562.0,CODESTYLE,False
+muzero_collector.py,Logging,call self._logger.info,667.0,CODESTYLE,False
+muzero_collector.py,Logging,call wandb.log,683.0,CODESTYLE,False
+alphazero_collector.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+alphazero_collector.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+alphazero_collector.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+alphazero_collector.py,Logging,call self._logger.debug,111.0,CODESTYLE,False
+alphazero_collector.py,Logging,call self._logger.info,240.0,CODESTYLE,False
+alphazero_collector.py,Logging,call self._logger.info,354.0,CODESTYLE,False
+muzero_segment_collector.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+muzero_segment_collector.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+muzero_segment_collector.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+muzero_segment_collector.py,Logging,logging library imported logging,1.0,CODESTYLE,False
+muzero_segment_collector.py,Logging,call self._logger.debug,124.0,CODESTYLE,False
+muzero_segment_collector.py,Logging,call self._logger.info,335.0,CODESTYLE,False
+muzero_segment_collector.py,Logging,call self._logger.warning,345.0,CODESTYLE,False
+muzero_segment_collector.py,Logging,call self._logger.debug,385.0,CODESTYLE,False
+muzero_segment_collector.py,Logging,call self._logger.info,454.0,CODESTYLE,False
+muzero_segment_collector.py,Logging,call self._logger.info,549.0,CODESTYLE,False
+muzero_segment_collector.py,Logging,call self._logger.info,601.0,CODESTYLE,False
+muzero_segment_collector.py,Logging,call self._logger.info,676.0,CODESTYLE,False
+muzero_evaluator.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+muzero_evaluator.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+muzero_evaluator.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+muzero_evaluator.py,Logging,call logging.info,103.0,CODESTYLE,False
+muzero_evaluator.py,Logging,call self._logger.info,217.0,CODESTYLE,False
+muzero_evaluator.py,Logging,call self._logger.info,219.0,CODESTYLE,False
+muzero_evaluator.py,Logging,call self._logger.info,221.0,CODESTYLE,False
+muzero_evaluator.py,Logging,call self._logger.info,251.0,CODESTYLE,False
+muzero_evaluator.py,Logging,call self._logger.warning,261.0,CODESTYLE,False
+muzero_evaluator.py,Logging,call self._logger.info,287.0,CODESTYLE,False
+muzero_evaluator.py,Logging,call self._logger.info,374.0,CODESTYLE,False
+muzero_evaluator.py,Logging,call self._logger.info,384.0,CODESTYLE,False
+muzero_evaluator.py,Logging,call logging.info,434.0,CODESTYLE,False
+muzero_evaluator.py,Logging,call self._logger.info,435.0,CODESTYLE,False
+muzero_evaluator.py,Logging,call wandb.log,448.0,CODESTYLE,False
+muzero_evaluator.py,Logging,call self._logger.info,460.0,CODESTYLE,False
+get_wrapped_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+get_wrapped_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+get_wrapped_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+get_wrapped_env.py,Logging,No logging detected,,CODESTYLE,True
+lightzero_env_wrapper.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+lightzero_env_wrapper.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+lightzero_env_wrapper.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+lightzero_env_wrapper.py,Logging,No logging detected,,CODESTYLE,True
+action_discretization_env_wrapper.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+action_discretization_env_wrapper.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+action_discretization_env_wrapper.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+action_discretization_env_wrapper.py,Logging,No logging detected,,CODESTYLE,True
+test_lightzero_env_wrapper.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_lightzero_env_wrapper.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_lightzero_env_wrapper.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_lightzero_env_wrapper.py,Logging,No logging detected,,CODESTYLE,True
+sampled_alphazero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sampled_alphazero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sampled_alphazero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sampled_alphazero.py,Logging,call policy_probs.log,203.0,CODESTYLE,False
+sampled_alphazero.py,Logging,call policy_probs.log,203.0,CODESTYLE,False
+sampled_alphazero.py,Logging,call policy_probs.log,203.0,CODESTYLE,False
+sampled_alphazero.py,Logging,call sampled_policy_probs.log,278.0,CODESTYLE,False
+sampled_alphazero.py,Logging,call sampled_policy_probs.log,278.0,CODESTYLE,False
+gumbel_alphazero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gumbel_alphazero.py,Hardcoded hyperparameter,epsilon=1e-10,195.0,HYPERPARAMETER,True
+gumbel_alphazero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gumbel_alphazero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gumbel_alphazero.py,Logging,call torch.log,196.0,CODESTYLE,False
+alphazero.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+alphazero.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+alphazero.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+alphazero.py,Logging,call torch.log,171.0,CODESTYLE,False

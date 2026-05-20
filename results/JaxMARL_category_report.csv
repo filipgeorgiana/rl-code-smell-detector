@@ -1,0 +1,5 @@
+Repository,Repository Age (months),Stars,Contributors,Size (KB),Topics,RL Libraries,Category,Count,Percentage
+https://github.com/FLAIROx/JaxMARL,34,742,32,61476,marl; multiagent-reinforcement-learning; reinforcement-learning,gymnax.environments.spaces; gymnax.wrappers.purerl,HYPERPARAMETER,42,31.58
+https://github.com/FLAIROx/JaxMARL,34,742,32,61476,marl; multiagent-reinforcement-learning; reinforcement-learning,gymnax.environments.spaces; gymnax.wrappers.purerl,EVALUATION,35,26.32
+https://github.com/FLAIROx/JaxMARL,34,742,32,61476,marl; multiagent-reinforcement-learning; reinforcement-learning,gymnax.environments.spaces; gymnax.wrappers.purerl,TRAINING,31,23.31
+https://github.com/FLAIROx/JaxMARL,34,742,32,61476,marl; multiagent-reinforcement-learning; reinforcement-learning,gymnax.environments.spaces; gymnax.wrappers.purerl,CODESTYLE,25,18.8

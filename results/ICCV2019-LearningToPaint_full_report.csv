@@ -1,0 +1,13 @@
+File,Smell,Details,Line,Category,Is Code Smell
+train.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train.py,Logging,No logging detected,,CODESTYLE,True
+train.py,Training and evaluation coupling,Training function calls 'evaluate()',44.0,TRAINING,True
+train.py,Training and evaluation coupling,Training function calls 'evaluate()',44.0,TRAINING,True
+train.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train.py,Logging,No logging detected,,CODESTYLE,True
+train.py,Training and evaluation coupling,Training function calls 'evaluate()',44.0,TRAINING,True
+train.py,Training and evaluation coupling,Training function calls 'evaluate()',44.0,TRAINING,True

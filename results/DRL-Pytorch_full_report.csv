@@ -1,0 +1,61 @@
+File,Smell,Details,Line,Category,Is Code Smell
+main.py,Environment Closed Detected,env,108.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,114.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,113.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,135.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,139.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,125.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,107.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,116.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,119.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+tianshou_wrappers.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+tianshou_wrappers.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tianshou_wrappers.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tianshou_wrappers.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,126.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,71.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,116.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,118.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+main.py,Environment Closed Detected,env,116.0,ENVIRONMENT,False
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True

@@ -1,0 +1,47 @@
+File,Smell,Details,Line,Category,Is Code Smell
+bctrainer.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+bctrainer.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+bctrainer.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+bctrainer.py,Logging,No logging detected,,CODESTYLE,True
+trainer.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+trainer.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+trainer.py,Logging,No logging detected,,CODESTYLE,True
+multiagentenv.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+multiagentenv.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+multiagentenv.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+multiagentenv.py,Logging,No logging detected,,CODESTYLE,True
+liar.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+liar.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+liar.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+liar.py,Logging,No logging detected,,CODESTYLE,True
+simpleblockworld.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+simpleblockworld.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+simpleblockworld.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+simpleblockworld.py,Logging,No logging detected,,CODESTYLE,True
+blockworld.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+blockworld.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+blockworld.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+blockworld.py,Logging,No logging detected,,CODESTYLE,True
+rps.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+rps.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+rps.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+rps.py,Logging,No logging detected,,CODESTYLE,True
+overcooked.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+overcooked.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+overcooked.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+overcooked.py,Logging,No logging detected,,CODESTYLE,True
+app.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+app.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+app.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+app.py,Logging,No logging detected,,CODESTYLE,True
+data_processing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+data_processing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+data_processing.py,Logging,No logging detected,,CODESTYLE,True
+overcookedtraining.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+overcookedtraining.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+overcookedtraining.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+overcookedtraining.py,Logging,No logging detected,,CODESTYLE,True
+pettingzooex.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pettingzooex.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pettingzooex.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pettingzooex.py,Logging,No logging detected,,CODESTYLE,True

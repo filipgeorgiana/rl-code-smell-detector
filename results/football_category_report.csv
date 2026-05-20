@@ -1,0 +1,6 @@
+Repository,Repository Age (months),Stars,Contributors,Size (KB),Topics,RL Libraries,Category,Count,Percentage
+https://github.com/google-research/football,80,3548,21,27761,reinforcement-learning; reinforcement-learning-environments,gym; ray.rllib.env.multi_agent_env,TRAINING,9,21.95
+https://github.com/google-research/football,80,3548,21,27761,reinforcement-learning; reinforcement-learning-environments,gym; ray.rllib.env.multi_agent_env,EVALUATION,9,21.95
+https://github.com/google-research/football,80,3548,21,27761,reinforcement-learning; reinforcement-learning-environments,gym; ray.rllib.env.multi_agent_env,AGENT,9,21.95
+https://github.com/google-research/football,80,3548,21,27761,reinforcement-learning; reinforcement-learning-environments,gym; ray.rllib.env.multi_agent_env,HYPERPARAMETER,8,19.51
+https://github.com/google-research/football,80,3548,21,27761,reinforcement-learning; reinforcement-learning-environments,gym; ray.rllib.env.multi_agent_env,CODESTYLE,6,14.63

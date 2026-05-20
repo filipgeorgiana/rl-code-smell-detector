@@ -1,0 +1,5 @@
+Repository,Repository Age (months),Stars,Contributors,Size (KB),Topics,RL Libraries,Category,Count,Percentage
+https://github.com/google-deepmind/acme,68,3918,71,6630,agents; reinforcement-learning; research,gym; social_rl.gym_multigrid,TRAINING,14,25.0
+https://github.com/google-deepmind/acme,68,3918,71,6630,agents; reinforcement-learning; research,gym; social_rl.gym_multigrid,HYPERPARAMETER,14,25.0
+https://github.com/google-deepmind/acme,68,3918,71,6630,agents; reinforcement-learning; research,gym; social_rl.gym_multigrid,EVALUATION,14,25.0
+https://github.com/google-deepmind/acme,68,3918,71,6630,agents; reinforcement-learning; research,gym; social_rl.gym_multigrid,CODESTYLE,14,25.0

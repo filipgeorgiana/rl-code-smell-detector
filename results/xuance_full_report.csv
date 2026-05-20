@@ -1,0 +1,716 @@
+File,Smell,Details,Line,Category,Is Code Smell
+mappo_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mappo_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mappo_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mappo_agents.py,Logging,No logging detected,,CODESTYLE,True
+coma_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+coma_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+coma_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+coma_agents.py,Logging,No logging detected,,CODESTYLE,True
+ic3net_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ic3net_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ic3net_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ic3net_agents.py,Logging,No logging detected,,CODESTYLE,True
+iac_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iac_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iac_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iac_agents.py,Logging,No logging detected,,CODESTYLE,True
+commnet_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+commnet_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+commnet_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+commnet_agents.py,Logging,No logging detected,,CODESTYLE,True
+mfac_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mfac_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mfac_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mfac_agents.py,Logging,No logging detected,,CODESTYLE,True
+vdac_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+vdac_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+vdac_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+vdac_agents.py,Logging,No logging detected,,CODESTYLE,True
+on_policy_marl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+on_policy_marl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+on_policy_marl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+on_policy_marl.py,Logging,No logging detected,,CODESTYLE,True
+td3bc_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+td3bc_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+td3bc_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+td3bc_agent.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v3_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dreamer_v3_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dreamer_v3_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dreamer_v3_agent.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v3_agent.py,Random behavior detected for sampling,self.train_envs.action_space.sample(),164.0,AGENT,True
+dreamer_v2_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dreamer_v2_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dreamer_v2_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dreamer_v2_agent.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v2_agent.py,Random behavior detected for sampling,self.train_envs.action_space.sample(),162.0,AGENT,True
+pdqn_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pdqn_agent.py,Hardcoded hyperparameter,epsilon=1.0,52.0,HYPERPARAMETER,True
+pdqn_agent.py,Hardcoded hyperparameter,epsilon_steps=1000,53.0,HYPERPARAMETER,True
+pdqn_agent.py,Hardcoded hyperparameter,epsilon_initial=1.0,54.0,HYPERPARAMETER,True
+pdqn_agent.py,Hardcoded hyperparameter,epsilon_final=0.1,55.0,HYPERPARAMETER,True
+pdqn_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pdqn_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pdqn_agent.py,Logging,No logging detected,,CODESTYLE,True
+runner_competition.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+runner_competition.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+runner_competition.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+runner_competition.py,Logging,No logging detected,,CODESTYLE,True
+runner_marl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+runner_marl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+runner_marl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+runner_marl.py,Logging,No logging detected,,CODESTYLE,True
+runner_pettingzoo.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+runner_pettingzoo.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+runner_pettingzoo.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+runner_pettingzoo.py,Logging,call wandb.log,115.0,CODESTYLE,False
+runner_pettingzoo.py,Logging,call wandb.log,126.0,CODESTYLE,False
+runner_drl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+runner_drl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+runner_drl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+runner_drl.py,Logging,No logging detected,,CODESTYLE,True
+mappo_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mappo_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mappo_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mappo_agents.py,Logging,No logging detected,,CODESTYLE,True
+coma_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+coma_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+coma_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+coma_agents.py,Logging,No logging detected,,CODESTYLE,True
+ic3net_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ic3net_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ic3net_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ic3net_agents.py,Logging,No logging detected,,CODESTYLE,True
+iac_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iac_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iac_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iac_agents.py,Logging,No logging detected,,CODESTYLE,True
+commnet_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+commnet_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+commnet_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+commnet_agents.py,Logging,No logging detected,,CODESTYLE,True
+mfac_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mfac_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mfac_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mfac_agents.py,Logging,No logging detected,,CODESTYLE,True
+vdac_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+vdac_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+vdac_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+vdac_agents.py,Logging,No logging detected,,CODESTYLE,True
+on_policy_marl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+on_policy_marl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+on_policy_marl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+on_policy_marl.py,Logging,No logging detected,,CODESTYLE,True
+td3bc_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+td3bc_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+td3bc_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+td3bc_agent.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v3_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dreamer_v3_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dreamer_v3_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dreamer_v3_agent.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v3_agent.py,Random behavior detected for sampling,self.envs.action_space.sample(),160.0,AGENT,True
+dreamer_v2_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dreamer_v2_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dreamer_v2_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dreamer_v2_agent.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v2_agent.py,Random behavior detected for sampling,self.envs.action_space.sample(),158.0,AGENT,True
+pdqn_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pdqn_agent.py,Hardcoded hyperparameter,epsilon=1.0,52.0,HYPERPARAMETER,True
+pdqn_agent.py,Hardcoded hyperparameter,epsilon_steps=1000,53.0,HYPERPARAMETER,True
+pdqn_agent.py,Hardcoded hyperparameter,epsilon_initial=1.0,54.0,HYPERPARAMETER,True
+pdqn_agent.py,Hardcoded hyperparameter,epsilon_final=0.1,55.0,HYPERPARAMETER,True
+pdqn_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pdqn_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pdqn_agent.py,Logging,No logging detected,,CODESTYLE,True
+runner_competition.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+runner_competition.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+runner_competition.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+runner_competition.py,Logging,No logging detected,,CODESTYLE,True
+runner_marl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+runner_marl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+runner_marl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+runner_marl.py,Logging,No logging detected,,CODESTYLE,True
+runner_pettingzoo.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+runner_pettingzoo.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+runner_pettingzoo.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+runner_pettingzoo.py,Logging,call wandb.log,115.0,CODESTYLE,False
+runner_pettingzoo.py,Logging,call wandb.log,126.0,CODESTYLE,False
+runner_drl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+runner_drl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+runner_drl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+runner_drl.py,Logging,No logging detected,,CODESTYLE,True
+memory_tools_marl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+memory_tools_marl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+memory_tools_marl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+memory_tools_marl.py,Logging,No logging detected,,CODESTYLE,True
+tuning_tool.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+tuning_tool.py,Tuning,Imported tuning library 'optuna' at line 1,1.0,HYPERPARAMETER,False
+tuning_tool.py,Tuning,Tuning function 'optuna.create_study' used at line 276,276.0,HYPERPARAMETER,False
+tuning_tool.py,Tuning,Tuning function 'optuna.create_study' used at line 363,363.0,HYPERPARAMETER,False
+tuning_tool.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tuning_tool.py,Logging,No logging detected,,CODESTYLE,True
+mappo_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mappo_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mappo_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mappo_agents.py,Logging,No logging detected,,CODESTYLE,True
+coma_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+coma_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+coma_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+coma_agents.py,Logging,No logging detected,,CODESTYLE,True
+ic3net_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ic3net_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ic3net_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ic3net_agents.py,Logging,No logging detected,,CODESTYLE,True
+iac_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iac_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iac_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iac_agents.py,Logging,No logging detected,,CODESTYLE,True
+commnet_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+commnet_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+commnet_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+commnet_agents.py,Logging,No logging detected,,CODESTYLE,True
+mfac_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mfac_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mfac_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mfac_agents.py,Logging,No logging detected,,CODESTYLE,True
+vdac_agents.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+vdac_agents.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+vdac_agents.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+vdac_agents.py,Logging,No logging detected,,CODESTYLE,True
+on_policy_marl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+on_policy_marl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+on_policy_marl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+on_policy_marl.py,Logging,No logging detected,,CODESTYLE,True
+td3bc_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+td3bc_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+td3bc_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+td3bc_agent.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v3_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dreamer_v3_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dreamer_v3_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dreamer_v3_agent.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v3_agent.py,Random behavior detected for sampling,self.train_envs.action_space.sample(),165.0,AGENT,True
+dreamer_v2_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dreamer_v2_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dreamer_v2_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dreamer_v2_agent.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v2_agent.py,Random behavior detected for sampling,self.train_envs.action_space.sample(),163.0,AGENT,True
+pdqn_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pdqn_agent.py,Hardcoded hyperparameter,epsilon=1.0,52.0,HYPERPARAMETER,True
+pdqn_agent.py,Hardcoded hyperparameter,epsilon_steps=1000,53.0,HYPERPARAMETER,True
+pdqn_agent.py,Hardcoded hyperparameter,epsilon_initial=1.0,54.0,HYPERPARAMETER,True
+pdqn_agent.py,Hardcoded hyperparameter,epsilon_final=0.1,55.0,HYPERPARAMETER,True
+pdqn_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pdqn_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pdqn_agent.py,Logging,No logging detected,,CODESTYLE,True
+runner_competition.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+runner_competition.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+runner_competition.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+runner_competition.py,Logging,No logging detected,,CODESTYLE,True
+runner_marl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+runner_marl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+runner_marl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+runner_marl.py,Logging,No logging detected,,CODESTYLE,True
+runner_pettingzoo.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+runner_pettingzoo.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+runner_pettingzoo.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+runner_pettingzoo.py,Logging,call wandb.log,115.0,CODESTYLE,False
+runner_pettingzoo.py,Logging,call wandb.log,126.0,CODESTYLE,False
+runner_drl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+runner_drl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+runner_drl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+runner_drl.py,Logging,No logging detected,,CODESTYLE,True
+wrapper.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+wrapper.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+wrapper.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+wrapper.py,Logging,No logging detected,,CODESTYLE,True
+base.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+base.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+base.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+base.py,Logging,No logging detected,,CODESTYLE,True
+dummy_vec_maenv.py,Environment Closed Detected,env,90.0,ENVIRONMENT,False
+dummy_vec_maenv.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dummy_vec_maenv.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dummy_vec_maenv.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dummy_vec_maenv.py,Logging,No logging detected,,CODESTYLE,True
+dummy_vec_env.py,Environment Closed Detected,env,81.0,ENVIRONMENT,False
+dummy_vec_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dummy_vec_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dummy_vec_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dummy_vec_env.py,Logging,No logging detected,,CODESTYLE,True
+subproc_vec_env.py,Environment Closed Detected,env,44.0,ENVIRONMENT,False
+subproc_vec_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+subproc_vec_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+subproc_vec_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+subproc_vec_env.py,Logging,No logging detected,,CODESTYLE,True
+subproc_vec_maenv.py,Environment Closed Detected,env,49.0,ENVIRONMENT,False
+subproc_vec_maenv.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+subproc_vec_maenv.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+subproc_vec_maenv.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+subproc_vec_maenv.py,Logging,No logging detected,,CODESTYLE,True
+atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+atari.py,Logging,No logging detected,,CODESTYLE,True
+mpe.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mpe.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mpe.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mpe.py,Logging,No logging detected,,CODESTYLE,True
+starcraft2.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+starcraft2.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+starcraft2.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+starcraft2.py,Logging,No logging detected,,CODESTYLE,True
+football.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+football.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+football.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+football.py,Logging,No logging detected,,CODESTYLE,True
+robotic_warehouse.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+robotic_warehouse.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+robotic_warehouse.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+robotic_warehouse.py,Logging,No logging detected,,CODESTYLE,True
+drones.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+drones.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+drones.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+drones.py,Logging,No logging detected,,CODESTYLE,True
+atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+atari.py,Logging,No logging detected,,CODESTYLE,True
+gym.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gym.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gym.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gym.py,Logging,No logging detected,,CODESTYLE,True
+metadrive.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+metadrive.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+metadrive.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+metadrive.py,Logging,No logging detected,,CODESTYLE,True
+minigrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+minigrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+minigrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+minigrid.py,Logging,No logging detected,,CODESTYLE,True
+platform.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+platform.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+platform.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+platform.py,Logging,No logging detected,,CODESTYLE,True
+drones.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+drones.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+drones.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+drones.py,Logging,No logging detected,,CODESTYLE,True
+maddpg_simple_adversary.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+maddpg_simple_adversary.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+maddpg_simple_adversary.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+maddpg_simple_adversary.py,Logging,No logging detected,,CODESTYLE,True
+maddpg_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+maddpg_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+maddpg_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+maddpg_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+drq_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+drq_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+drq_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+drq_atari.py,Logging,No logging detected,,CODESTYLE,True
+iddpg_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iddpg_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iddpg_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iddpg_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+sac_mujoco.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sac_mujoco.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sac_mujoco.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sac_mujoco.py,Logging,No logging detected,,CODESTYLE,True
+sac_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sac_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sac_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sac_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+sac_metadrive.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sac_metadrive.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sac_metadrive.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sac_metadrive.py,Logging,No logging detected,,CODESTYLE,True
+sac_pendulum.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sac_pendulum.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sac_pendulum.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sac_pendulum.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v2_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dreamer_v2_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dreamer_v2_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dreamer_v2_atari.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v2_pendulum.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dreamer_v2_pendulum.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dreamer_v2_pendulum.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dreamer_v2_pendulum.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v2_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dreamer_v2_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dreamer_v2_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dreamer_v2_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+noisydqn_carracing.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+noisydqn_carracing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+noisydqn_carracing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+noisydqn_carracing.py,Logging,No logging detected,,CODESTYLE,True
+noisydqn_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+noisydqn_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+noisydqn_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+noisydqn_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+noisydqn_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+noisydqn_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+noisydqn_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+noisydqn_atari.py,Logging,No logging detected,,CODESTYLE,True
+noisydqn_minigrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+noisydqn_minigrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+noisydqn_minigrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+noisydqn_minigrid.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v3_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dreamer_v3_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dreamer_v3_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dreamer_v3_atari.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v3_pendulum.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dreamer_v3_pendulum.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dreamer_v3_pendulum.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dreamer_v3_pendulum.py,Logging,No logging detected,,CODESTYLE,True
+dreamer_v3_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dreamer_v3_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dreamer_v3_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dreamer_v3_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+ppo_new_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppo_new_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo_new_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo_new_env.py,Logging,No logging detected,,CODESTYLE,True
+td3_new_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+td3_new_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+td3_new_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+td3_new_env.py,Logging,No logging detected,,CODESTYLE,True
+dqn_new_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dqn_new_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dqn_new_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dqn_new_env.py,Logging,No logging detected,,CODESTYLE,True
+sac_new_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sac_new_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sac_new_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sac_new_env.py,Logging,No logging detected,,CODESTYLE,True
+ippo_new_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ippo_new_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ippo_new_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ippo_new_env.py,Logging,No logging detected,,CODESTYLE,True
+ddpg_new_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ddpg_new_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ddpg_new_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ddpg_new_env.py,Logging,No logging detected,,CODESTYLE,True
+new_marl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+new_marl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+new_marl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+new_marl.py,Logging,No logging detected,,CODESTYLE,True
+new_rl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+new_rl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+new_rl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+new_rl.py,Logging,No logging detected,,CODESTYLE,True
+ddpg_pendulum.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ddpg_pendulum.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ddpg_pendulum.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ddpg_pendulum.py,Logging,No logging detected,,CODESTYLE,True
+ddpg_mujoco.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ddpg_mujoco.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ddpg_mujoco.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ddpg_mujoco.py,Logging,No logging detected,,CODESTYLE,True
+qrdqn_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+qrdqn_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+qrdqn_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+qrdqn_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+qrdqn_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+qrdqn_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+qrdqn_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+qrdqn_atari.py,Logging,No logging detected,,CODESTYLE,True
+qrdqn_minigrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+qrdqn_minigrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+qrdqn_minigrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+qrdqn_minigrid.py,Logging,No logging detected,,CODESTYLE,True
+qrdqn_carracing.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+qrdqn_carracing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+qrdqn_carracing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+qrdqn_carracing.py,Logging,No logging detected,,CODESTYLE,True
+masac_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+masac_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+masac_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+masac_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+commnet_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+commnet_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+commnet_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+commnet_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+ippo_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ippo_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ippo_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ippo_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+isac_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+isac_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+isac_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+isac_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+pg_minigrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pg_minigrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pg_minigrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pg_minigrid.py,Logging,No logging detected,,CODESTYLE,True
+pg_mujoco.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pg_mujoco.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pg_mujoco.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pg_mujoco.py,Logging,No logging detected,,CODESTYLE,True
+pg_carracing.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pg_carracing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pg_carracing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pg_carracing.py,Logging,No logging detected,,CODESTYLE,True
+pg_pendulum.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pg_pendulum.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pg_pendulum.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pg_pendulum.py,Logging,No logging detected,,CODESTYLE,True
+pg_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pg_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pg_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pg_atari.py,Logging,No logging detected,,CODESTYLE,True
+pg_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pg_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pg_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pg_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+curl_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+curl_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+curl_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+curl_atari.py,Logging,No logging detected,,CODESTYLE,True
+vdac_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+vdac_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+vdac_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+vdac_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+dqn_carracing.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dqn_carracing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dqn_carracing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dqn_carracing.py,Logging,No logging detected,,CODESTYLE,True
+dqn_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dqn_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dqn_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dqn_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+dqn_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dqn_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dqn_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dqn_atari.py,Logging,No logging detected,,CODESTYLE,True
+dqn_minigrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dqn_minigrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dqn_minigrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dqn_minigrid.py,Logging,No logging detected,,CODESTYLE,True
+ddqn_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ddqn_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ddqn_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ddqn_atari.py,Logging,No logging detected,,CODESTYLE,True
+ddqn_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ddqn_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ddqn_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ddqn_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+ddqn_minigrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ddqn_minigrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ddqn_minigrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ddqn_minigrid.py,Logging,No logging detected,,CODESTYLE,True
+ddqn_carracing.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ddqn_carracing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ddqn_carracing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ddqn_carracing.py,Logging,No logging detected,,CODESTYLE,True
+iac_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+iac_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+iac_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+iac_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+mappo_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mappo_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mappo_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mappo_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+spr_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+spr_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+spr_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+spr_atari.py,Logging,No logging detected,,CODESTYLE,True
+drqn_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+drqn_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+drqn_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+drqn_atari.py,Logging,No logging detected,,CODESTYLE,True
+drqn_carracing.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+drqn_carracing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+drqn_carracing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+drqn_carracing.py,Logging,No logging detected,,CODESTYLE,True
+drqn_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+drqn_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+drqn_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+drqn_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+drqn_minigrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+drqn_minigrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+drqn_minigrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+drqn_minigrid.py,Logging,No logging detected,,CODESTYLE,True
+c51_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+c51_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+c51_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+c51_atari.py,Logging,No logging detected,,CODESTYLE,True
+c51_minigrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+c51_minigrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+c51_minigrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+c51_minigrid.py,Logging,No logging detected,,CODESTYLE,True
+c51_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+c51_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+c51_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+c51_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+c51_carracing.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+c51_carracing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+c51_carracing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+c51_carracing.py,Logging,No logging detected,,CODESTYLE,True
+tarmac_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+tarmac_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tarmac_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tarmac_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+dcg_rware.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dcg_rware.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dcg_rware.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dcg_rware.py,Logging,No logging detected,,CODESTYLE,True
+dueldqn_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dueldqn_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dueldqn_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dueldqn_atari.py,Logging,No logging detected,,CODESTYLE,True
+dueldqn_carracing.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dueldqn_carracing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dueldqn_carracing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dueldqn_carracing.py,Logging,No logging detected,,CODESTYLE,True
+dueldqn_minigrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dueldqn_minigrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dueldqn_minigrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dueldqn_minigrid.py,Logging,No logging detected,,CODESTYLE,True
+dueldqn_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dueldqn_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dueldqn_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dueldqn_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+matd3_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+matd3_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+matd3_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+matd3_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+hopper.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+hopper.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+hopper.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+hopper.py,Logging,No logging detected,,CODESTYLE,True
+td3_bc_halfcheetah.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+td3_bc_halfcheetah.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+td3_bc_halfcheetah.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+td3_bc_halfcheetah.py,Logging,No logging detected,,CODESTYLE,True
+halfcheetah.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+halfcheetah.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+halfcheetah.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+halfcheetah.py,Logging,No logging detected,,CODESTYLE,True
+td3_bc_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+td3_bc_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+td3_bc_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+td3_bc_agent.py,Logging,No logging detected,,CODESTYLE,True
+offline_utils.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+offline_utils.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+offline_utils.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+offline_utils.py,Logging,No logging detected,,CODESTYLE,True
+td3_bc_walker2d.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+td3_bc_walker2d.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+td3_bc_walker2d.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+td3_bc_walker2d.py,Logging,No logging detected,,CODESTYLE,True
+walker2d.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+walker2d.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+walker2d.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+walker2d.py,Logging,No logging detected,,CODESTYLE,True
+ic3net_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ic3net_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ic3net_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ic3net_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+ppo_mujoco.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppo_mujoco.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo_mujoco.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo_mujoco.py,Logging,No logging detected,,CODESTYLE,True
+ppo_carracing.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppo_carracing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo_carracing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo_carracing.py,Logging,No logging detected,,CODESTYLE,True
+ppo_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppo_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+ppo_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppo_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo_atari.py,Logging,No logging detected,,CODESTYLE,True
+ppo_pendulum.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppo_pendulum.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo_pendulum.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo_pendulum.py,Logging,No logging detected,,CODESTYLE,True
+ppo_drones.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppo_drones.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo_drones.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo_drones.py,Logging,No logging detected,,CODESTYLE,True
+ppo_metadrive.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppo_metadrive.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo_metadrive.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo_metadrive.py,Logging,No logging detected,,CODESTYLE,True
+ppo_minigrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppo_minigrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo_minigrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo_minigrid.py,Logging,No logging detected,,CODESTYLE,True
+a2c_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+a2c_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+a2c_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+a2c_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+a2c_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+a2c_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+a2c_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+a2c_atari.py,Logging,No logging detected,,CODESTYLE,True
+a2c_carracing.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+a2c_carracing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+a2c_carracing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+a2c_carracing.py,Logging,No logging detected,,CODESTYLE,True
+a2c_pendulum.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+a2c_pendulum.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+a2c_pendulum.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+a2c_pendulum.py,Logging,No logging detected,,CODESTYLE,True
+a2c_mujoco.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+a2c_mujoco.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+a2c_mujoco.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+a2c_mujoco.py,Logging,No logging detected,,CODESTYLE,True
+a2c_minigrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+a2c_minigrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+a2c_minigrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+a2c_minigrid.py,Logging,No logging detected,,CODESTYLE,True
+qmix_rware.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+qmix_rware.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+qmix_rware.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+qmix_rware.py,Logging,No logging detected,,CODESTYLE,True
+ppg_minigrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppg_minigrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppg_minigrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppg_minigrid.py,Logging,No logging detected,,CODESTYLE,True
+ppg_cartpole.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppg_cartpole.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppg_cartpole.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppg_cartpole.py,Logging,No logging detected,,CODESTYLE,True
+ppg_carracing.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppg_carracing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppg_carracing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppg_carracing.py,Logging,No logging detected,,CODESTYLE,True
+ppg_mujoco.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppg_mujoco.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppg_mujoco.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppg_mujoco.py,Logging,No logging detected,,CODESTYLE,True
+ppg_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppg_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppg_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppg_atari.py,Logging,No logging detected,,CODESTYLE,True
+ppg_pendulum.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppg_pendulum.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppg_pendulum.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppg_pendulum.py,Logging,No logging detected,,CODESTYLE,True
+dgn_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dgn_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dgn_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dgn_simple_spread.py,Logging,No logging detected,,CODESTYLE,True
+vdn_rware.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+vdn_rware.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+vdn_rware.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+vdn_rware.py,Logging,No logging detected,,CODESTYLE,True
+td3_pendulum.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+td3_pendulum.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+td3_pendulum.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+td3_pendulum.py,Logging,No logging detected,,CODESTYLE,True
+td3_mujoco.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+td3_mujoco.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+td3_mujoco.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+td3_mujoco.py,Logging,No logging detected,,CODESTYLE,True
+coma_simple_spread.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+coma_simple_spread.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+coma_simple_spread.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+coma_simple_spread.py,Logging,No logging detected,,CODESTYLE,True

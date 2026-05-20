@@ -1,0 +1,74 @@
+File,Smell,Details,Line,Category,Is Code Smell
+tutorial_PG.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_PG.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_PG.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_PPO.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_PPO.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_PPO.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_A3C.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_A3C.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_A3C.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_DPPO.py,Environment Closed Detected,env,332.0,ENVIRONMENT,False
+tutorial_DPPO.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_DPPO.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_DPPO.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_AC.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_AC.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_AC.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_DQN.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+tutorial_DQN.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_DQN.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_DQN.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_DQN.py,Random behavior detected for sampling,env.action_space.sample(),117.0,AGENT,True
+tutorial_DQN_variants.py,Hardcoded hyperparameter,lr=0.005,86.0,HYPERPARAMETER,True
+tutorial_DQN_variants.py,Hardcoded hyperparameter,lr=0.0001,98.0,HYPERPARAMETER,True
+tutorial_DQN_variants.py,Hardcoded hyperparameter,reward_gamma=0.99,106.0,HYPERPARAMETER,True
+tutorial_DQN_variants.py,Hardcoded hyperparameter,batch_size=32,107.0,HYPERPARAMETER,True
+tutorial_DQN_variants.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_DQN_variants.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_DQN_variants.py,Logging,call np.log,264.0,CODESTYLE,False
+tutorial_DQN_variants.py,Logging,call np.log,307.0,CODESTYLE,False
+tutorial_TRPO.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_TRPO.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_TRPO.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_SAC.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_SAC.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_SAC.py,Logging,call tf.math.log,192.0,CODESTYLE,False
+tutorial_SAC.py,Logging,call np.log,193.0,CODESTYLE,False
+tutorial_atari_pong.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+tutorial_atari_pong.py,Hardcoded hyperparameter,batch_size=10,37.0,HYPERPARAMETER,True
+tutorial_atari_pong.py,Hardcoded hyperparameter,learning_rate=0.0001,38.0,HYPERPARAMETER,True
+tutorial_atari_pong.py,Hardcoded hyperparameter,gamma=0.99,39.0,HYPERPARAMETER,True
+tutorial_atari_pong.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_atari_pong.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_atari_pong.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_prioritized_replay.py,Hardcoded hyperparameter,lr=0.005,65.0,HYPERPARAMETER,True
+tutorial_prioritized_replay.py,Hardcoded hyperparameter,lr=0.0001,77.0,HYPERPARAMETER,True
+tutorial_prioritized_replay.py,Hardcoded hyperparameter,reward_gamma=0.99,85.0,HYPERPARAMETER,True
+tutorial_prioritized_replay.py,Hardcoded hyperparameter,batch_size=32,86.0,HYPERPARAMETER,True
+tutorial_prioritized_replay.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_prioritized_replay.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_prioritized_replay.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_DDPG.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_DDPG.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_DDPG.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_wrappers.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+tutorial_wrappers.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_wrappers.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_wrappers.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_wrappers.py,Random behavior detected for sampling,unwrapped_env.action_space.sample(),545.0,AGENT,True
+tutorial_wrappers.py,Random behavior detected for sampling,unwrapped_env.action_space.sample(),556.0,AGENT,True
+tutorial_Qlearning.py,Hardcoded hyperparameter,lr=0.85,42.0,HYPERPARAMETER,True
+tutorial_Qlearning.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_Qlearning.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_Qlearning.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_TD3.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_TD3.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_TD3.py,Logging,No logging detected,,CODESTYLE,True
+tutorial_C51.py,Hardcoded hyperparameter,lr=0.005,62.0,HYPERPARAMETER,True
+tutorial_C51.py,Hardcoded hyperparameter,lr=0.0001,74.0,HYPERPARAMETER,True
+tutorial_C51.py,Hardcoded hyperparameter,reward_gamma=0.99,82.0,HYPERPARAMETER,True
+tutorial_C51.py,Hardcoded hyperparameter,batch_size=32,83.0,HYPERPARAMETER,True
+tutorial_C51.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tutorial_C51.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tutorial_C51.py,Logging,No logging detected,,CODESTYLE,True

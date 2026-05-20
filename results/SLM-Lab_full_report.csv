@@ -1,0 +1,69 @@
+File,Smell,Details,Line,Category,Is Code Smell
+random_baseline.py,Environment Closed Detected,env,75.0,ENVIRONMENT,False
+random_baseline.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+random_baseline.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+random_baseline.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+random_baseline.py,Logging,call logger.info,94.0,CODESTYLE,False
+random_baseline.py,Logging,call logger.warning,97.0,CODESTYLE,False
+random_baseline.py,Logging,call logger.info,100.0,CODESTYLE,False
+random_baseline.py,Logging,call logger.info,112.0,CODESTYLE,False
+random_baseline.py,Logging,call logger.info,114.0,CODESTYLE,False
+random_baseline.py,Logging,call logger.info,115.0,CODESTYLE,False
+random_baseline.py,Logging,call logger.info,118.0,CODESTYLE,False
+random_baseline.py,Logging,call logger.info,120.0,CODESTYLE,False
+random_baseline.py,Random behavior detected for sampling,env.action_space.sample(),68.0,AGENT,True
+__init__.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+__init__.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+__init__.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+__init__.py,Logging,call logger.info,179.0,CODESTYLE,False
+__init__.py,Logging,call logger.info,190.0,CODESTYLE,False
+__init__.py,Logging,call logger.info,199.0,CODESTYLE,False
+__init__.py,Logging,call logger.info,245.0,CODESTYLE,False
+wrappers.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+wrappers.py,Hardcoded hyperparameter,batch_size=1,52.0,HYPERPARAMETER,True
+wrappers.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+wrappers.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+wrappers.py,Logging,No logging detected,,CODESTYLE,True
+control.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+control.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+control.py,Logging,call logger.info,99.0,CODESTYLE,False
+control.py,Logging,call logger.info,137.0,CODESTYLE,False
+control.py,Logging,call logger.info,191.0,CODESTYLE,False
+control.py,Logging,call logger.info,197.0,CODESTYLE,False
+control.py,Logging,call logger.info,206.0,CODESTYLE,False
+control.py,Logging,call logger.info,226.0,CODESTYLE,False
+test_action_rescaling.py,Environment Closed Detected,env,37.0,ENVIRONMENT,False
+test_action_rescaling.py,Environment Closed Detected,env,47.0,ENVIRONMENT,False
+test_action_rescaling.py,Environment Closed Detected,env,58.0,ENVIRONMENT,False
+test_action_rescaling.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_action_rescaling.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_action_rescaling.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_action_rescaling.py,Logging,No logging detected,,CODESTYLE,True
+test_reward_tracking.py,Environment Closed Detected,env,35.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,51.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,64.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,81.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,100.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,120.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,149.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,170.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,194.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,215.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,234.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,278.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,293.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,308.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,327.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,372.0,ENVIRONMENT,False
+test_reward_tracking.py,Environment Closed Detected,env,410.0,ENVIRONMENT,False
+test_reward_tracking.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_reward_tracking.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_reward_tracking.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_reward_tracking.py,Logging,No logging detected,,CODESTYLE,True
+test_reward_tracking.py,Random behavior detected for sampling,env.action_space.sample(),368.0,AGENT,True
+test_reward_tracking.py,Random behavior detected for sampling,env.action_space.sample(),110.0,AGENT,True
+test_reward_tracking.py,Random behavior detected for sampling,env.action_space.sample(),45.0,AGENT,True
+test_reward_tracking.py,Random behavior detected for sampling,env.action_space.sample(),93.0,AGENT,True
+test_reward_tracking.py,Random behavior detected for sampling,env.action_space.sample(),208.0,AGENT,True
+test_reward_tracking.py,Random behavior detected for sampling,env.action_space.sample(),404.0,AGENT,True
+test_reward_tracking.py,Random behavior detected for sampling,env.action_space.sample(),230.0,AGENT,True

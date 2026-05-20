@@ -1,0 +1,241 @@
+File,Smell,Details,Line,Category,Is Code Smell
+minimal.py,Environment Closed Detected,env,22.0,ENVIRONMENT,False
+minimal.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+minimal.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+minimal.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+minimal.py,Logging,No logging detected,,CODESTYLE,True
+run_train.py,Environment Closed Detected,env,318.0,ENVIRONMENT,False
+run_train.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+run_train.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+run_train.py,Logging,logging library imported logging,24.0,CODESTYLE,False
+run_train.py,Logging,No logging detected,,CODESTYLE,True
+run_test.py,Environment Closed Detected,env,177.0,ENVIRONMENT,False
+run_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+run_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+run_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+run_test.py,Logging,logging library imported logging,25.0,CODESTYLE,False
+run_test.py,Logging,No logging detected,,CODESTYLE,True
+egoless_example.py,Environment Closed Detected,env,44.0,ENVIRONMENT,False
+egoless_example.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+egoless_example.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+egoless_example.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+egoless_example.py,Logging,No logging detected,,CODESTYLE,True
+egoless_example.py,Random behavior detected for actions,env.step({}),41.0,AGENT,True
+npc_ego_example.py,Environment Closed Detected,env,67.0,ENVIRONMENT,False
+npc_ego_example.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+npc_ego_example.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+npc_ego_example.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+npc_ego_example.py,Logging,logging library imported logging,2.0,CODESTYLE,False
+npc_ego_example.py,Logging,No logging detected,,CODESTYLE,True
+e3_multi_agent.py,Environment Closed Detected,env,71.0,ENVIRONMENT,False
+e3_multi_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+e3_multi_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+e3_multi_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+e3_multi_agent.py,Logging,No logging detected,,CODESTYLE,True
+e1_egoless.py,Environment Closed Detected,env,36.0,ENVIRONMENT,False
+e1_egoless.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+e1_egoless.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+e1_egoless.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+e1_egoless.py,Logging,No logging detected,,CODESTYLE,True
+e1_egoless.py,Random behavior detected for actions,env.step({}),33.0,AGENT,True
+e8_parallel_environment.py,Environment Closed Detected,env,137.0,ENVIRONMENT,False
+e8_parallel_environment.py,Environment Closed Detected,env,184.0,ENVIRONMENT,False
+e8_parallel_environment.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+e8_parallel_environment.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+e8_parallel_environment.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+e8_parallel_environment.py,Logging,No logging detected,,CODESTYLE,True
+e7_experiment_base.py,Environment Closed Detected,env,152.0,ENVIRONMENT,False
+e7_experiment_base.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+e7_experiment_base.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+e7_experiment_base.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+e7_experiment_base.py,Logging,No logging detected,,CODESTYLE,True
+e2_single_agent.py,Environment Closed Detected,env,59.0,ENVIRONMENT,False
+e2_single_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+e2_single_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+e2_single_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+e2_single_agent.py,Logging,logging library imported logging,4.0,CODESTYLE,False
+e2_single_agent.py,Logging,No logging detected,,CODESTYLE,True
+run.py,Environment Closed Detected,env,116.0,ENVIRONMENT,False
+run.py,Environment Closed Detected,env,118.0,ENVIRONMENT,False
+run.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+run.py,Model evaluation detected,Evaluation call 'EvalCallback' detected at line 152,152.0,EVALUATION,False
+run.py,Logging,No logging detected,,CODESTYLE,True
+run.py,Training and evaluation coupling,Training function takes evaluation environments as argument: 'envs_eval',121.0,TRAINING,True
+run.py,Training and evaluation coupling,'EvalCallback' is used inside training,152.0,TRAINING,True
+run.py,Training and evaluation coupling,Training function takes evaluation environments as argument: 'envs_eval',121.0,TRAINING,True
+run.py,Training and evaluation coupling,'EvalCallback' is used inside training,152.0,TRAINING,True
+env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env.py,Logging,No logging detected,,CODESTYLE,True
+dynamic_history_vehicles_replacement.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dynamic_history_vehicles_replacement.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dynamic_history_vehicles_replacement.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dynamic_history_vehicles_replacement.py,Logging,logging library imported logging,1.0,CODESTYLE,False
+dynamic_history_vehicles_replacement.py,Logging,call logger.debug,57.0,CODESTYLE,False
+dynamic_history_vehicles_replacement.py,Logging,call logger.info,73.0,CODESTYLE,False
+dynamic_history_vehicles_replacement.py,Logging,call logger.warning,90.0,CODESTYLE,False
+dynamic_history_vehicles_replacement.py,Logging,call logger.info,95.0,CODESTYLE,False
+dynamic_history_vehicles_replacement.py,Logging,call logger.warning,118.0,CODESTYLE,False
+dynamic_history_vehicles_replacement.py,Logging,call logger.warning,140.0,CODESTYLE,False
+dynamic_history_vehicles_replacement.py,Logging,call logger.debug,172.0,CODESTYLE,False
+dynamic_history_vehicles_replacement.py,Logging,call logger.warning,180.0,CODESTYLE,False
+dynamic_history_vehicles_replacement.py,Logging,call logger.warning,183.0,CODESTYLE,False
+dynamic_history_vehicles_replacement.py,Logging,call logger.info,185.0,CODESTYLE,False
+dynamic_history_vehicles_replacement.py,Logging,call logger.debug,188.0,CODESTYLE,False
+run.py,Environment Closed Detected,env,117.0,ENVIRONMENT,False
+run.py,Environment Closed Detected,env,119.0,ENVIRONMENT,False
+run.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+run.py,Model evaluation detected,Evaluation call 'EvalCallback' detected at line 153,153.0,EVALUATION,False
+run.py,Logging,No logging detected,,CODESTYLE,True
+run.py,Training and evaluation coupling,Training function takes evaluation environments as argument: 'envs_eval',122.0,TRAINING,True
+run.py,Training and evaluation coupling,'EvalCallback' is used inside training,153.0,TRAINING,True
+run.py,Training and evaluation coupling,Training function takes evaluation environments as argument: 'envs_eval',122.0,TRAINING,True
+run.py,Training and evaluation coupling,'EvalCallback' is used inside training,153.0,TRAINING,True
+env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env.py,Logging,No logging detected,,CODESTYLE,True
+crv.py,Environment Closed Detected,env,31.0,ENVIRONMENT,False
+crv.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+crv.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+crv.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+crv.py,Logging,No logging detected,,CODESTYLE,True
+replay_klws_agent.py,Environment Closed Detected,env,111.0,ENVIRONMENT,False
+replay_klws_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+replay_klws_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+replay_klws_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+replay_klws_agent.py,Logging,logging library imported logging,1.0,CODESTYLE,False
+replay_klws_agent.py,Logging,No logging detected,,CODESTYLE,True
+test_data_replay.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_data_replay.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_data_replay.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_data_replay.py,Logging,No logging detected,,CODESTYLE,True
+benchmark_runner_v0.py,Environment Closed Detected,env,90.0,ENVIRONMENT,False
+benchmark_runner_v0.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+benchmark_runner_v0.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+benchmark_runner_v0.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+benchmark_runner_v0.py,Logging,logging library imported logging,23.0,CODESTYLE,False
+benchmark_runner_v0.py,Logging,call logging.error,77.0,CODESTYLE,False
+test_observations.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_observations.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_observations.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_observations.py,Logging,logging library imported logging,22.0,CODESTYLE,False
+test_observations.py,Logging,No logging detected,,CODESTYLE,True
+test_notebook.py,Environment Closed Detected,env,87.0,ENVIRONMENT,False
+test_notebook.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_notebook.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_notebook.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_notebook.py,Logging,logging library imported logging,22.0,CODESTYLE,False
+test_notebook.py,Logging,No logging detected,,CODESTYLE,True
+test_env_frame_rate.py,Environment Closed Detected,env,115.0,ENVIRONMENT,False
+test_env_frame_rate.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_env_frame_rate.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_env_frame_rate.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_env_frame_rate.py,Logging,logging library imported logging,23.0,CODESTYLE,False
+test_env_frame_rate.py,Logging,call test_logger.info,104.0,CODESTYLE,False
+test_env_frame_rate.py,Logging,call test_logger.info,111.0,CODESTYLE,False
+test_smarts_memory_growth.py,Environment Closed Detected,env,134.0,ENVIRONMENT,False
+test_smarts_memory_growth.py,Environment Closed Detected,env,184.0,ENVIRONMENT,False
+test_smarts_memory_growth.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_smarts_memory_growth.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_smarts_memory_growth.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_smarts_memory_growth.py,Logging,logging library imported logging,23.0,CODESTYLE,False
+test_smarts_memory_growth.py,Logging,No logging detected,,CODESTYLE,True
+run.py,Environment Closed Detected,env,81.0,ENVIRONMENT,False
+run.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+run.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+run.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+run.py,Logging,logging library imported logging,21.0,CODESTYLE,False
+run.py,Logging,call logger.info,214.0,CODESTYLE,False
+run.py,Random behavior detected for actions,env.step({}),79.0,AGENT,True
+rllib_hiway_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+rllib_hiway_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+rllib_hiway_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+rllib_hiway_env.py,Logging,logging library imported logging,20.0,CODESTYLE,False
+rllib_hiway_env.py,Logging,call self._log.warning,137.0,CODESTYLE,False
+hiway_env_v1.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+hiway_env_v1.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+hiway_env_v1.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+hiway_env_v1.py,Logging,logging library imported logging,22.0,CODESTYLE,False
+hiway_env_v1.py,Logging,No logging detected,,CODESTYLE,True
+driving_smarts_2022_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+driving_smarts_2022_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+driving_smarts_2022_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+driving_smarts_2022_env.py,Logging,logging library imported logging,22.0,CODESTYLE,False
+driving_smarts_2022_env.py,Logging,call logger.warning,315.0,CODESTYLE,False
+driving_smarts_2022_env.py,Logging,call logger.warning,331.0,CODESTYLE,False
+platoon_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+platoon_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+platoon_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+platoon_env.py,Logging,logging library imported logging,21.0,CODESTYLE,False
+platoon_env.py,Logging,No logging detected,,CODESTYLE,True
+driving_smarts_2023_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+driving_smarts_2023_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+driving_smarts_2023_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+driving_smarts_2023_env.py,Logging,logging library imported logging,21.0,CODESTYLE,False
+driving_smarts_2023_env.py,Logging,No logging detected,,CODESTYLE,True
+parallel_env.py,Environment Closed Detected,env,332.0,ENVIRONMENT,False
+parallel_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+parallel_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+parallel_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+parallel_env.py,Logging,No logging detected,,CODESTYLE,True
+metrics.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+metrics.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+metrics.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+metrics.py,Logging,No logging detected,,CODESTYLE,True
+test_determinism.py,Environment Closed Detected,env,88.0,ENVIRONMENT,False
+test_determinism.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_determinism.py,Hardcoded hyperparameter,max_steps_per_episode=20,131.0,HYPERPARAMETER,True
+test_determinism.py,Hardcoded hyperparameter,max_steps_per_episode=55000,141.0,HYPERPARAMETER,True
+test_determinism.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_determinism.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_determinism.py,Logging,No logging detected,,CODESTYLE,True
+test_single_agent.py,Environment Closed Detected,env,76.0,ENVIRONMENT,False
+test_single_agent.py,Environment Closed Detected,env,89.0,ENVIRONMENT,False
+test_single_agent.py,Environment Closed Detected,env,98.0,ENVIRONMENT,False
+test_single_agent.py,Environment Closed Detected,env,131.0,ENVIRONMENT,False
+test_single_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_single_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_single_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_single_agent.py,Logging,No logging detected,,CODESTYLE,True
+test_shutdown.py,Environment Closed Detected,env,60.0,ENVIRONMENT,False
+test_shutdown.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_shutdown.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_shutdown.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_shutdown.py,Logging,No logging detected,,CODESTYLE,True
+test_metrics.py,Environment Closed Detected,env,122.0,ENVIRONMENT,False
+test_metrics.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_metrics.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_metrics.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_metrics.py,Logging,No logging detected,,CODESTYLE,True
+test_benchmark.py,Environment Closed Detected,env,61.0,ENVIRONMENT,False
+test_benchmark.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_benchmark.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_benchmark.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_benchmark.py,Logging,No logging detected,,CODESTYLE,True
+test_rllib_hiway_env.py,Environment Closed Detected,env,81.0,ENVIRONMENT,False
+test_rllib_hiway_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_rllib_hiway_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_rllib_hiway_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_rllib_hiway_env.py,Logging,No logging detected,,CODESTYLE,True
+test_parallel_env.py,Environment Closed Detected,env,83.0,ENVIRONMENT,False
+test_parallel_env.py,Environment Closed Detected,env,105.0,ENVIRONMENT,False
+test_parallel_env.py,Environment Closed Detected,env,118.0,ENVIRONMENT,False
+test_parallel_env.py,Environment Closed Detected,env,137.0,ENVIRONMENT,False
+test_parallel_env.py,Environment Closed Detected,env,166.0,ENVIRONMENT,False
+test_parallel_env.py,Environment Closed Detected,env,221.0,ENVIRONMENT,False
+test_parallel_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_parallel_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_parallel_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_parallel_env.py,Logging,No logging detected,,CODESTYLE,True
+test_social_agent.py,Environment Closed Detected,env,55.0,ENVIRONMENT,False
+test_social_agent.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_social_agent.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_social_agent.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_social_agent.py,Logging,No logging detected,,CODESTYLE,True
+test_hiway_env_v1.py,Environment Closed Detected,env,54.0,ENVIRONMENT,False
+test_hiway_env_v1.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_hiway_env_v1.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_hiway_env_v1.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_hiway_env_v1.py,Logging,No logging detected,,CODESTYLE,True

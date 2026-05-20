@@ -1,0 +1,78 @@
+File,Smell,Details,Line,Category,Is Code Smell
+test_time.py,Environment Closed Detected,env,24.0,ENVIRONMENT,False
+test_time.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_time.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_time.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_time.py,Logging,No logging detected,,CODESTYLE,True
+test_time.py,Random behavior detected for sampling,env.action_space.sample(),22.0,AGENT,True
+test_env_preprocessors.py,Environment Closed Detected,env,23.0,ENVIRONMENT,False
+test_env_preprocessors.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_env_preprocessors.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_env_preprocessors.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_env_preprocessors.py,Logging,No logging detected,,CODESTYLE,True
+test_env_preprocessors.py,Random behavior detected for sampling,env.action_space.sample(),21.0,AGENT,True
+test_actions.py,Environment Closed Detected,env,26.0,ENVIRONMENT,False
+test_actions.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_actions.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_actions.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_actions.py,Logging,No logging detected,,CODESTYLE,True
+test_actions.py,Random behavior detected for sampling,env.action_space.sample(),22.0,AGENT,True
+test_gym.py,Environment Closed Detected,env,45.0,ENVIRONMENT,False
+test_gym.py,Environment Closed Detected,env,79.0,ENVIRONMENT,False
+test_gym.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_gym.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_gym.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_gym.py,Logging,No logging detected,,CODESTYLE,True
+test_gym.py,Random behavior detected for sampling,env.action_space.sample(),76.0,AGENT,True
+test_observations.py,Environment Closed Detected,env,24.0,ENVIRONMENT,False
+test_observations.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_observations.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_observations.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_observations.py,Logging,No logging detected,,CODESTYLE,True
+test_observations.py,Random behavior detected for sampling,env.action_space.sample(),20.0,AGENT,True
+sb3_highway_dqn_cnn.py,Environment Closed Detected,env,68.0,ENVIRONMENT,False
+sb3_highway_dqn_cnn.py,Redundant env creation,Environment 'env' created at line 55 but another instance is used just for video recording at line 57. ,57.0,ENVIRONMENT,True
+sb3_highway_dqn_cnn.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sb3_highway_dqn_cnn.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sb3_highway_dqn_cnn.py,Logging,No logging detected,,CODESTYLE,True
+sb3_highway_ppo.py,Hardcoded hyperparameter,batch_size=64,17.0,HYPERPARAMETER,True
+sb3_highway_ppo.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sb3_highway_ppo.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sb3_highway_ppo.py,Logging,No logging detected,,CODESTYLE,True
+sb3_highway_dqn.py,Environment Closed Detected,env,56.0,ENVIRONMENT,False
+sb3_highway_dqn.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sb3_highway_dqn.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sb3_highway_dqn.py,Logging,No logging detected,,CODESTYLE,True
+sb3_highway_ppo_transformer.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sb3_highway_ppo_transformer.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sb3_highway_ppo_transformer.py,Logging,No logging detected,,CODESTYLE,True
+sb3_racetrack_oval_ppo.py,Environment Closed Detected,env,103.0,ENVIRONMENT,False
+sb3_racetrack_oval_ppo.py,Hardcoded hyperparameter,batch_size=32,63.0,HYPERPARAMETER,True
+sb3_racetrack_oval_ppo.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sb3_racetrack_oval_ppo.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sb3_racetrack_oval_ppo.py,Logging,No logging detected,,CODESTYLE,True
+sb3_racetracks_ppo.py,Environment Closed Detected,env,53.0,ENVIRONMENT,False
+sb3_racetracks_ppo.py,Hardcoded hyperparameter,batch_size=64,14.0,HYPERPARAMETER,True
+sb3_racetracks_ppo.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sb3_racetracks_ppo.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sb3_racetracks_ppo.py,Logging,No logging detected,,CODESTYLE,True
+lane_keeping_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+lane_keeping_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+lane_keeping_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+lane_keeping_env.py,Logging,No logging detected,,CODESTYLE,True
+intersection_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+intersection_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+intersection_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+intersection_env.py,Logging,No logging detected,,CODESTYLE,True
+parking_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+parking_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+parking_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+parking_env.py,Logging,No logging detected,,CODESTYLE,True
+exit_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+exit_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+exit_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+exit_env.py,Logging,No logging detected,,CODESTYLE,True
+abstract.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+abstract.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+abstract.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+abstract.py,Logging,No logging detected,,CODESTYLE,True

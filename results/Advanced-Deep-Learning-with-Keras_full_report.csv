@@ -1,0 +1,25 @@
+File,Smell,Details,Line,Category,Is Code Smell
+q-frozenlake-9.5.1.py,Environment Closed Detected,env,234.0,ENVIRONMENT,False
+q-frozenlake-9.5.1.py,Hardcoded hyperparameter,gamma=0.9,40.0,HYPERPARAMETER,True
+q-frozenlake-9.5.1.py,Hardcoded hyperparameter,epsilon=0.9,43.0,HYPERPARAMETER,True
+q-frozenlake-9.5.1.py,Hardcoded hyperparameter,epsilon_min=0.1,46.0,HYPERPARAMETER,True
+q-frozenlake-9.5.1.py,Hardcoded hyperparameter,learning_rate=0.1,52.0,HYPERPARAMETER,True
+q-frozenlake-9.5.1.py,Hardcoded hyperparameter,epsilon=0,64.0,HYPERPARAMETER,True
+q-frozenlake-9.5.1.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+q-frozenlake-9.5.1.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+q-frozenlake-9.5.1.py,Logging,No logging detected,,CODESTYLE,True
+dqn-cartpole-9.6.1.py,Environment Closed Detected,env,345.0,ENVIRONMENT,False
+dqn-cartpole-9.6.1.py,Hardcoded hyperparameter,gamma=0.9,34.0,HYPERPARAMETER,True
+dqn-cartpole-9.6.1.py,Hardcoded hyperparameter,epsilon=1.0,37.0,HYPERPARAMETER,True
+dqn-cartpole-9.6.1.py,Hardcoded hyperparameter,epsilon_min=0.1,40.0,HYPERPARAMETER,True
+dqn-cartpole-9.6.1.py,Hardcoded hyperparameter,batch_size=64,300.0,HYPERPARAMETER,True
+dqn-cartpole-9.6.1.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dqn-cartpole-9.6.1.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dqn-cartpole-9.6.1.py,Logging,No logging detected,,CODESTYLE,True
+policygradient-car-10.1.1.py,Environment Closed Detected,env,880.0,ENVIRONMENT,False
+policygradient-car-10.1.1.py,Hardcoded hyperparameter,batch_size=32,189.0,HYPERPARAMETER,True
+policygradient-car-10.1.1.py,Hardcoded hyperparameter,gamma=0.99,395.0,HYPERPARAMETER,True
+policygradient-car-10.1.1.py,Hardcoded hyperparameter,gamma=0.95,518.0,HYPERPARAMETER,True
+policygradient-car-10.1.1.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+policygradient-car-10.1.1.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+policygradient-car-10.1.1.py,Logging,No logging detected,,CODESTYLE,True

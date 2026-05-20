@@ -1,0 +1,108 @@
+File,Smell,Details,Line,Category,Is Code Smell
+acer.py,Environment Closed Detected,env,146.0,ENVIRONMENT,False
+acer.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+acer.py,Hardcoded hyperparameter,learning_rate=0.0002,15.0,HYPERPARAMETER,True
+acer.py,Hardcoded hyperparameter,gamma=0.98,16.0,HYPERPARAMETER,True
+acer.py,Hardcoded hyperparameter,batch_size=4,19.0,HYPERPARAMETER,True
+acer.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+acer.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+acer.py,Logging,call torch.log,103.0,CODESTYLE,False
+acer.py,Logging,call torch.log,104.0,CODESTYLE,False
+ppo-lstm.py,Environment Closed Detected,env,134.0,ENVIRONMENT,False
+ppo-lstm.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppo-lstm.py,Hardcoded hyperparameter,learning_rate=0.0005,12.0,HYPERPARAMETER,True
+ppo-lstm.py,Hardcoded hyperparameter,gamma=0.98,13.0,HYPERPARAMETER,True
+ppo-lstm.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo-lstm.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo-lstm.py,Logging,call torch.log,91.0,CODESTYLE,False
+ppo-lstm.py,Logging,call torch.log,91.0,CODESTYLE,False
+ppo-lstm.py,Logging,call torch.log,91.0,CODESTYLE,False
+ppo-lstm.py,Logging,call torch.log,91.0,CODESTYLE,False
+actor_critic.py,Environment Closed Detected,env,95.0,ENVIRONMENT,False
+actor_critic.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+actor_critic.py,Hardcoded hyperparameter,learning_rate=0.0002,9.0,HYPERPARAMETER,True
+actor_critic.py,Hardcoded hyperparameter,gamma=0.98,10.0,HYPERPARAMETER,True
+actor_critic.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+actor_critic.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+actor_critic.py,Logging,call torch.log,61.0,CODESTYLE,False
+REINFORCE.py,Environment Closed Detected,env,64.0,ENVIRONMENT,False
+REINFORCE.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+REINFORCE.py,Hardcoded hyperparameter,learning_rate=0.0002,9.0,HYPERPARAMETER,True
+REINFORCE.py,Hardcoded hyperparameter,gamma=0.98,10.0,HYPERPARAMETER,True
+REINFORCE.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+REINFORCE.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+REINFORCE.py,Logging,call torch.log,34.0,CODESTYLE,False
+sac.py,Environment Closed Detected,env,170.0,ENVIRONMENT,False
+sac.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sac.py,Hardcoded hyperparameter,lr_pi=0.0005,11.0,HYPERPARAMETER,True
+sac.py,Hardcoded hyperparameter,lr_q=0.001,12.0,HYPERPARAMETER,True
+sac.py,Hardcoded hyperparameter,gamma=0.98,14.0,HYPERPARAMETER,True
+sac.py,Hardcoded hyperparameter,batch_size=32,15.0,HYPERPARAMETER,True
+sac.py,Hardcoded hyperparameter,lr_alpha=0.001,19.0,HYPERPARAMETER,True
+sac.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sac.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sac.py,Logging,call np.log,56.0,CODESTYLE,False
+sac.py,Logging,call np.log,56.0,CODESTYLE,False
+sac.py,Logging,call torch.log,68.0,CODESTYLE,False
+vtrace.py,Environment Closed Detected,env,133.0,ENVIRONMENT,False
+vtrace.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+vtrace.py,Hardcoded hyperparameter,learning_rate=0.0005,9.0,HYPERPARAMETER,True
+vtrace.py,Hardcoded hyperparameter,gamma=0.98,10.0,HYPERPARAMETER,True
+vtrace.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+vtrace.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+vtrace.py,Logging,call torch.log,67.0,CODESTYLE,False
+vtrace.py,Logging,call torch.log,67.0,CODESTYLE,False
+vtrace.py,Logging,call torch.log,67.0,CODESTYLE,False
+vtrace.py,Logging,call torch.log,67.0,CODESTYLE,False
+vtrace.py,Logging,call torch.log,98.0,CODESTYLE,False
+ddpg.py,Environment Closed Detected,env,144.0,ENVIRONMENT,False
+ddpg.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ddpg.py,Hardcoded hyperparameter,lr_mu=0.0005,11.0,HYPERPARAMETER,True
+ddpg.py,Hardcoded hyperparameter,lr_q=0.001,12.0,HYPERPARAMETER,True
+ddpg.py,Hardcoded hyperparameter,gamma=0.99,13.0,HYPERPARAMETER,True
+ddpg.py,Hardcoded hyperparameter,batch_size=32,14.0,HYPERPARAMETER,True
+ddpg.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ddpg.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ddpg.py,Logging,No logging detected,,CODESTYLE,True
+a3c.py,Environment Closed Detected,env,89.0,ENVIRONMENT,False
+a3c.py,Environment Closed Detected,env,113.0,ENVIRONMENT,False
+a3c.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+a3c.py,Hardcoded hyperparameter,learning_rate=0.0002,12.0,HYPERPARAMETER,True
+a3c.py,Hardcoded hyperparameter,gamma=0.98,14.0,HYPERPARAMETER,True
+a3c.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+a3c.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+a3c.py,Logging,call torch.log,79.0,CODESTYLE,False
+dqn.py,Environment Closed Detected,env,112.0,ENVIRONMENT,False
+dqn.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dqn.py,Hardcoded hyperparameter,learning_rate=0.0005,11.0,HYPERPARAMETER,True
+dqn.py,Hardcoded hyperparameter,gamma=0.98,12.0,HYPERPARAMETER,True
+dqn.py,Hardcoded hyperparameter,batch_size=32,14.0,HYPERPARAMETER,True
+dqn.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dqn.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dqn.py,Logging,No logging detected,,CODESTYLE,True
+ppo.py,Environment Closed Detected,env,116.0,ENVIRONMENT,False
+ppo.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppo.py,Hardcoded hyperparameter,learning_rate=0.0005,9.0,HYPERPARAMETER,True
+ppo.py,Hardcoded hyperparameter,gamma=0.98,10.0,HYPERPARAMETER,True
+ppo.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo.py,Logging,call torch.log,77.0,CODESTYLE,False
+ppo.py,Logging,call torch.log,77.0,CODESTYLE,False
+ppo.py,Logging,call torch.log,77.0,CODESTYLE,False
+ppo.py,Logging,call torch.log,77.0,CODESTYLE,False
+a2c.py,Environment Closed Detected,env,131.0,ENVIRONMENT,False
+a2c.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+a2c.py,Hardcoded hyperparameter,learning_rate=0.0002,12.0,HYPERPARAMETER,True
+a2c.py,Hardcoded hyperparameter,gamma=0.98,14.0,HYPERPARAMETER,True
+a2c.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+a2c.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+a2c.py,Logging,call torch.log,177.0,CODESTYLE,False
+a2c.py,Logging,call torch.log,177.0,CODESTYLE,False
+ppo-continuous.py,Environment Closed Detected,env,157.0,ENVIRONMENT,False
+ppo-continuous.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ppo-continuous.py,Hardcoded hyperparameter,learning_rate=0.0003,9.0,HYPERPARAMETER,True
+ppo-continuous.py,Hardcoded hyperparameter,gamma=0.9,10.0,HYPERPARAMETER,True
+ppo-continuous.py,Hardcoded hyperparameter,minibatch_size=32,16.0,HYPERPARAMETER,True
+ppo-continuous.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ppo-continuous.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ppo-continuous.py,Logging,No logging detected,,CODESTYLE,True

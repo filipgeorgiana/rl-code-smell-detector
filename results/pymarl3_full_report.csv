@@ -1,0 +1,135 @@
+File,Smell,Details,Line,Category,Is Code Smell
+main.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,call logger.info,117.0,CODESTYLE,False
+starcraft2.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+starcraft2.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+starcraft2.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+starcraft2.py,Logging,call logging.debug,427.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,461.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,536.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,564.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,574.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,587.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,600.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,613.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,626.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,648.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.info,872.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1114.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1115.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1120.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1121.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1122.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1123.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1158.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1159.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1160.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1162.0,CODESTYLE,False
+starcraft2.py,Logging,call self._controller.debug,1500.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1523.0,CODESTYLE,False
+wrapper.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+wrapper.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+wrapper.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+wrapper.py,Logging,No logging detected,,CODESTYLE,True
+starcraft2_hxt.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+starcraft2_hxt.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+starcraft2_hxt.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+starcraft2_hxt.py,Logging,call logging.debug,537.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,540.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,553.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,595.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,679.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,707.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,717.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,735.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,753.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,771.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,789.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,807.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,822.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.info,1052.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call self._controller.debug,1157.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,1452.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,1453.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,1458.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,1459.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,1460.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,1461.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,1524.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,1525.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,1526.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,1528.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call self._controller.debug,1951.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call self._controller.debug,2007.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call self._controller.debug,2022.0,CODESTYLE,False
+starcraft2_hxt.py,Logging,call logging.debug,2063.0,CODESTYLE,False
+starcraft2.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+starcraft2.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+starcraft2.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+starcraft2.py,Logging,call logging.debug,535.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,538.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,551.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,593.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,677.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,705.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,715.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,731.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,747.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,764.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,780.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,803.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,818.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.info,1048.0,CODESTYLE,False
+starcraft2.py,Logging,call self._controller.debug,1153.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1448.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1449.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1454.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1455.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1456.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1457.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1520.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1521.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1522.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,1524.0,CODESTYLE,False
+starcraft2.py,Logging,call self._controller.debug,1950.0,CODESTYLE,False
+starcraft2.py,Logging,call self._controller.debug,2006.0,CODESTYLE,False
+starcraft2.py,Logging,call self._controller.debug,2021.0,CODESTYLE,False
+starcraft2.py,Logging,call logging.debug,2062.0,CODESTYLE,False
+sc2_official.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sc2_official.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sc2_official.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sc2_official.py,Logging,call logging.debug,539.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,542.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,555.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,597.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,682.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,710.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,720.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,736.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,752.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,769.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,785.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,808.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,823.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.info,1053.0,CODESTYLE,False
+sc2_official.py,Logging,call self._controller.debug,1334.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,1629.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,1630.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,1635.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,1636.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,1637.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,1638.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,1701.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,1702.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,1703.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,1705.0,CODESTYLE,False
+sc2_official.py,Logging,call self._controller.debug,2133.0,CODESTYLE,False
+sc2_official.py,Logging,call self._controller.debug,2189.0,CODESTYLE,False
+sc2_official.py,Logging,call self._controller.debug,2204.0,CODESTYLE,False
+sc2_official.py,Logging,call logging.debug,2245.0,CODESTYLE,False
+smacv2_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+smacv2_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+smacv2_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+smacv2_test.py,Logging,No logging detected,,CODESTYLE,True

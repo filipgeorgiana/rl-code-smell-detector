@@ -1,0 +1,30 @@
+File,Smell,Details,Line,Category,Is Code Smell
+train-atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train-atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train-atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train-atari.py,Logging,call tf.log,109.0,CODESTYLE,False
+train-atari.py,Logging,call logger.info,165.0,CODESTYLE,False
+train-atari.py,Logging,call logger.info,176.0,CODESTYLE,False
+train-atari.py,Logging,call logger.info,237.0,CODESTYLE,False
+train-atari.py,Logging,call logger.info,290.0,CODESTYLE,False
+simulator.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+simulator.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+simulator.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+simulator.py,Logging,call logger.info,149.0,CODESTYLE,False
+atari_wrapper.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+atari_wrapper.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+atari_wrapper.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+atari_wrapper.py,Logging,No logging detected,,CODESTYLE,True
+expreplay.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+expreplay.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+expreplay.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+expreplay.py,Logging,call logger.info,39.0,CODESTYLE,False
+expreplay.py,Logging,call logger.info,320.0,CODESTYLE,False
+atari_wrapper.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+atari_wrapper.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+atari_wrapper.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+atari_wrapper.py,Logging,No logging detected,,CODESTYLE,True
+DQN.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+DQN.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+DQN.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+DQN.py,Logging,call logger.info,165.0,CODESTYLE,False

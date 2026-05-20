@@ -1,0 +1,107 @@
+File,Smell,Details,Line,Category,Is Code Smell
+train_mujoco.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_mujoco.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_mujoco.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_mujoco.py,Logging,No logging detected,,CODESTYLE,True
+env_wrappers.py,Environment Closed Detected,env,169.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,329.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,424.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,518.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,603.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,703.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,750.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,788.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,823.0,ENVIRONMENT,False
+env_wrappers.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env_wrappers.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env_wrappers.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env_wrappers.py,Logging,No logging detected,,CODESTYLE,True
+test.py,Environment Closed Detected,env,103.0,ENVIRONMENT,False
+test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test.py,Logging,No logging detected,,CODESTYLE,True
+humanoid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+humanoid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+humanoid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+humanoid.py,Logging,No logging detected,,CODESTYLE,True
+ant.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ant.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ant.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ant.py,Logging,No logging detected,,CODESTYLE,True
+half_cheetah.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+half_cheetah.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+half_cheetah.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+half_cheetah.py,Logging,No logging detected,,CODESTYLE,True
+mujoco_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mujoco_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mujoco_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mujoco_env.py,Logging,No logging detected,,CODESTYLE,True
+mujoco_env.py,Random behavior detected for sampling,self.action_space.sample(),63.0,AGENT,True
+manyagent_swimmer.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+manyagent_swimmer.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+manyagent_swimmer.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+manyagent_swimmer.py,Logging,No logging detected,,CODESTYLE,True
+hopper.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+hopper.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+hopper.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+hopper.py,Logging,No logging detected,,CODESTYLE,True
+manyagent_ant.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+manyagent_ant.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+manyagent_ant.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+manyagent_ant.py,Logging,No logging detected,,CODESTYLE,True
+train_mujoco.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train_mujoco.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_mujoco.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_mujoco.py,Logging,No logging detected,,CODESTYLE,True
+eval_hanabi.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+eval_hanabi.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+eval_hanabi.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+eval_hanabi.py,Logging,No logging detected,,CODESTYLE,True
+env_wrappers.py,Environment Closed Detected,env,169.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,329.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,424.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,518.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,603.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,703.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,750.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,788.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,823.0,ENVIRONMENT,False
+env_wrappers.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env_wrappers.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env_wrappers.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env_wrappers.py,Logging,No logging detected,,CODESTYLE,True
+test.py,Environment Closed Detected,env,113.0,ENVIRONMENT,False
+test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test.py,Logging,No logging detected,,CODESTYLE,True
+humanoid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+humanoid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+humanoid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+humanoid.py,Logging,No logging detected,,CODESTYLE,True
+ant.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ant.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ant.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ant.py,Logging,No logging detected,,CODESTYLE,True
+half_cheetah.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+half_cheetah.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+half_cheetah.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+half_cheetah.py,Logging,No logging detected,,CODESTYLE,True
+mujoco_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mujoco_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mujoco_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mujoco_env.py,Logging,No logging detected,,CODESTYLE,True
+mujoco_env.py,Random behavior detected for sampling,self.action_space.sample(),63.0,AGENT,True
+manyagent_swimmer.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+manyagent_swimmer.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+manyagent_swimmer.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+manyagent_swimmer.py,Logging,No logging detected,,CODESTYLE,True
+hopper.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+hopper.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+hopper.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+hopper.py,Logging,No logging detected,,CODESTYLE,True
+manyagent_ant.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+manyagent_ant.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+manyagent_ant.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+manyagent_ant.py,Logging,No logging detected,,CODESTYLE,True

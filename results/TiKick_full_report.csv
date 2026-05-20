@@ -1,0 +1,22 @@
+File,Smell,Details,Line,Category,Is Code Smell
+base_evaluator.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+base_evaluator.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+base_evaluator.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+base_evaluator.py,Logging,No logging detected,,CODESTYLE,True
+env_wrappers.py,Environment Closed Detected,env,168.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,277.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,391.0,ENVIRONMENT,False
+env_wrappers.py,Environment Closed Detected,env,442.0,ENVIRONMENT,False
+env_wrappers.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env_wrappers.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env_wrappers.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env_wrappers.py,Logging,No logging detected,,CODESTYLE,True
+football_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+football_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+football_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+football_env.py,Logging,call logging.error,74.0,CODESTYLE,False
+football_env.py,Logging,call logging.error,75.0,CODESTYLE,False
+football_env_core.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+football_env_core.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+football_env_core.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+football_env_core.py,Logging,call logging.info,263.0,CODESTYLE,False

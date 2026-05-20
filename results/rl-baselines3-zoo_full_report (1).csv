@@ -1,0 +1,48 @@
+File,Smell,Details,Line,Category,Is Code Smell
+enjoy.py,Environment Closed Detected,env,292.0,ENVIRONMENT,False
+enjoy.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+enjoy.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+enjoy.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+enjoy.py,Logging,No logging detected,,CODESTYLE,True
+push_to_hub.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+push_to_hub.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+push_to_hub.py,Logging,call msg.info,180.0,CODESTYLE,False
+push_to_hub.py,Logging,call msg.info,274.0,CODESTYLE,False
+push_to_hub.py,Logging,call msg.info,277.0,CODESTYLE,False
+record_video.py,Environment Closed Detected,env,167.0,ENVIRONMENT,False
+record_video.py,Redundant env creation,Environment 'env' created at line 96 but another instance is used just for video recording at line 141. ,141.0,ENVIRONMENT,True
+record_video.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+record_video.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+record_video.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+record_video.py,Logging,No logging detected,,CODESTYLE,True
+utils.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+utils.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+utils.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+utils.py,Logging,No logging detected,,CODESTYLE,True
+train.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train.py,Logging,No logging detected,,CODESTYLE,True
+import_envs.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+import_envs.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+import_envs.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+import_envs.py,Logging,No logging detected,,CODESTYLE,True
+exp_manager.py,Environment Closed Detected,env,233.0,ENVIRONMENT,False
+exp_manager.py,Tuning,Imported tuning library 'optuna' at line 16,16.0,HYPERPARAMETER,False
+exp_manager.py,Tuning,Imported from tuning library 'optuna.pruners' at line 21,21.0,HYPERPARAMETER,False
+exp_manager.py,Tuning,Imported from tuning library 'optuna.samplers' at line 22,22.0,HYPERPARAMETER,False
+exp_manager.py,Tuning,Imported from tuning library 'optuna.study' at line 23,23.0,HYPERPARAMETER,False
+exp_manager.py,Tuning,Imported from tuning library 'optuna.trial' at line 24,24.0,HYPERPARAMETER,False
+exp_manager.py,Tuning,Imported from tuning library 'optuna.visualization' at line 25,25.0,HYPERPARAMETER,False
+exp_manager.py,Tuning,Imported tuning library 'optunahub' at line 781,781.0,HYPERPARAMETER,False
+exp_manager.py,Tuning,Tuning function 'optuna.create_study' used at line 921,921.0,HYPERPARAMETER,False
+exp_manager.py,Model evaluation detected,Evaluation call 'EvalCallback' detected at line 590,590.0,EVALUATION,False
+exp_manager.py,Logging,No logging detected,,CODESTYLE,True
+test_wrappers.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_wrappers.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_wrappers.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_wrappers.py,Logging,No logging detected,,CODESTYLE,True
+test_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_env.py,Logging,No logging detected,,CODESTYLE,True

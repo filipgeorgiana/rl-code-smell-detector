@@ -1,0 +1,19 @@
+File,Smell,Details,Line,Category,Is Code Smell
+env_utils.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env_utils.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env_utils.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env_utils.py,Logging,No logging detected,,CODESTYLE,True
+utils.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+utils.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+utils.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+utils.py,Logging,logging library imported logging,3.0,CODESTYLE,False
+utils.py,Logging,call log.info,119.0,CODESTYLE,False
+utils.py,Logging,call log.error,182.0,CODESTYLE,False
+env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env.py,Logging,No logging detected,,CODESTYLE,True
+simulation.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+simulation.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+simulation.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+simulation.py,Logging,No logging detected,,CODESTYLE,True

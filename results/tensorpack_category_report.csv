@@ -1,0 +1,5 @@
+Repository,Repository Age (months),Stars,Contributors,Size (KB),Topics,RL Libraries,Category,Count,Percentage
+https://github.com/tensorpack/tensorpack,121,6295,51,9096,deep-learning; machine-learning; neural-networks; reinforcement-learning; tensorflow,gym,TRAINING,6,30.0
+https://github.com/tensorpack/tensorpack,121,6295,51,9096,deep-learning; machine-learning; neural-networks; reinforcement-learning; tensorflow,gym,HYPERPARAMETER,6,30.0
+https://github.com/tensorpack/tensorpack,121,6295,51,9096,deep-learning; machine-learning; neural-networks; reinforcement-learning; tensorflow,gym,EVALUATION,6,30.0
+https://github.com/tensorpack/tensorpack,121,6295,51,9096,deep-learning; machine-learning; neural-networks; reinforcement-learning; tensorflow,gym,CODESTYLE,2,10.0

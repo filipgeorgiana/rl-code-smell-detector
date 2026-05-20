@@ -1,0 +1,5 @@
+Repository,Repository Age (months),Stars,Contributors,Size (KB),Topics,RL Libraries,Category,Count,Percentage
+https://github.com/TARTRL/TiKick,52,123,1,176,google-research-football; multi-agent-reinforcement-learning; pytorch; reinforcement-learning,gym; gym.envs.classic_control; torch,TRAINING,4,28.57
+https://github.com/TARTRL/TiKick,52,123,1,176,google-research-football; multi-agent-reinforcement-learning; pytorch; reinforcement-learning,gym; gym.envs.classic_control; torch,HYPERPARAMETER,4,28.57
+https://github.com/TARTRL/TiKick,52,123,1,176,google-research-football; multi-agent-reinforcement-learning; pytorch; reinforcement-learning,gym; gym.envs.classic_control; torch,EVALUATION,4,28.57
+https://github.com/TARTRL/TiKick,52,123,1,176,google-research-football; multi-agent-reinforcement-learning; pytorch; reinforcement-learning,gym; gym.envs.classic_control; torch,CODESTYLE,2,14.29

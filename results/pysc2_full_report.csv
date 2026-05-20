@@ -1,0 +1,25 @@
+File,Smell,Details,Line,Category,Is Code Smell
+check_apm.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+check_apm.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+check_apm.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+check_apm.py,Logging,No logging detected,,CODESTYLE,True
+mock_sc2_env_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mock_sc2_env_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mock_sc2_env_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mock_sc2_env_test.py,Logging,No logging detected,,CODESTYLE,True
+converted_env_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+converted_env_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+converted_env_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+converted_env_test.py,Logging,No logging detected,,CODESTYLE,True
+converted_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+converted_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+converted_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+converted_env.py,Logging,No logging detected,,CODESTYLE,True
+base_env_wrapper.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+base_env_wrapper.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+base_env_wrapper.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+base_env_wrapper.py,Logging,No logging detected,,CODESTYLE,True
+mock_sc2_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+mock_sc2_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mock_sc2_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mock_sc2_env.py,Logging,No logging detected,,CODESTYLE,True

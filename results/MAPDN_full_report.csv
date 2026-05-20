@@ -1,0 +1,14 @@
+File,Smell,Details,Line,Category,Is Code Smell
+code_examples.py,Environment Closed Detected,env,64.0,ENVIRONMENT,False
+code_examples.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+code_examples.py,Hardcoded hyperparameter,max_steps=100,41.0,HYPERPARAMETER,True
+code_examples.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+code_examples.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+code_examples.py,Logging,No logging detected,,CODESTYLE,True
+test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test.py,Logging,No logging detected,,CODESTYLE,True
+train.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train.py,Logging,No logging detected,,CODESTYLE,True

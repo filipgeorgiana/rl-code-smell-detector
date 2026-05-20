@@ -1,0 +1,43 @@
+File,Smell,Details,Line,Category,Is Code Smell
+test_parallelization.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_parallelization.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_parallelization.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_parallelization.py,Logging,No logging detected,,CODESTYLE,True
+rl_enjoy.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+rl_enjoy.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+rl_enjoy.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+rl_enjoy.py,Logging,No logging detected,,CODESTYLE,True
+wrapped_humanoid_bullet.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+wrapped_humanoid_bullet.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+wrapped_humanoid_bullet.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+wrapped_humanoid_bullet.py,Logging,No logging detected,,CODESTYLE,True
+rl_clipup.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+rl_clipup.py,Hardcoded hyperparameter,epsilon=1e-08,120.0,HYPERPARAMETER,True
+rl_clipup.py,Hardcoded hyperparameter,stdev_learning_rate=0.1,124.0,HYPERPARAMETER,True
+rl_clipup.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+rl_clipup.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+rl_clipup.py,Logging,No logging detected,,CODESTYLE,True
+core.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+core.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+core.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+core.py,Logging,logging library imported logging,23.0,CODESTYLE,False
+core.py,Logging,call _evolog.warning,71.0,CODESTYLE,False
+core.py,Logging,call _evolog.info,1009.0,CODESTYLE,False
+core.py,Logging,call _evolog.info,1026.0,CODESTYLE,False
+core.py,Logging,call _evolog.info,1034.0,CODESTYLE,False
+core.py,Logging,call _evolog.info,1445.0,CODESTYLE,False
+core.py,Logging,call _evolog.info,1464.0,CODESTYLE,False
+core.py,Logging,call _evolog.info,1593.0,CODESTYLE,False
+vecgymne.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+vecgymne.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+vecgymne.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+vecgymne.py,Logging,No logging detected,,CODESTYLE,True
+gymne.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gymne.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gymne.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gymne.py,Logging,No logging detected,,CODESTYLE,True
+vecrl.py,Environment Closed Detected,env,1912.0,ENVIRONMENT,False
+vecrl.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+vecrl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+vecrl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+vecrl.py,Logging,No logging detected,,CODESTYLE,True

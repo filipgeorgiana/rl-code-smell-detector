@@ -1,0 +1,5 @@
+Repository,Repository Age (months),Stars,Contributors,Size (KB),Topics,RL Libraries,Category,Count,Percentage
+https://github.com/BindsNET/bindsnet,96,1653,47,64970,dynamic; gpu-computing; machine-learning; neurons; pytorch; reinforcement-learning; simulation; snn; spiking-neural-networks; stdp; synapse,torch,TRAINING,8,25.0
+https://github.com/BindsNET/bindsnet,96,1653,47,64970,dynamic; gpu-computing; machine-learning; neurons; pytorch; reinforcement-learning; simulation; snn; spiking-neural-networks; stdp; synapse,torch,HYPERPARAMETER,8,25.0
+https://github.com/BindsNET/bindsnet,96,1653,47,64970,dynamic; gpu-computing; machine-learning; neurons; pytorch; reinforcement-learning; simulation; snn; spiking-neural-networks; stdp; synapse,torch,EVALUATION,8,25.0
+https://github.com/BindsNET/bindsnet,96,1653,47,64970,dynamic; gpu-computing; machine-learning; neurons; pytorch; reinforcement-learning; simulation; snn; spiking-neural-networks; stdp; synapse,torch,CODESTYLE,8,25.0

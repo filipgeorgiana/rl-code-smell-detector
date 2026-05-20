@@ -1,0 +1,33 @@
+File,Smell,Details,Line,Category,Is Code Smell
+dot_tracing.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dot_tracing.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dot_tracing.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dot_tracing.py,Logging,No logging detected,,CODESTYLE,True
+breakout.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+breakout.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+breakout.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+breakout.py,Logging,No logging detected,,CODESTYLE,True
+play_breakout_from_ANN.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+play_breakout_from_ANN.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+play_breakout_from_ANN.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+play_breakout_from_ANN.py,Logging,No logging detected,,CODESTYLE,True
+random_baseline.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+random_baseline.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+random_baseline.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+random_baseline.py,Logging,No logging detected,,CODESTYLE,True
+breakout_stdp.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+breakout_stdp.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+breakout_stdp.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+breakout_stdp.py,Logging,No logging detected,,CODESTYLE,True
+random_network_baseline.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+random_network_baseline.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+random_network_baseline.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+random_network_baseline.py,Logging,No logging detected,,CODESTYLE,True
+environment_pipeline.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+environment_pipeline.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+environment_pipeline.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+environment_pipeline.py,Logging,No logging detected,,CODESTYLE,True
+environment.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+environment.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+environment.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+environment.py,Logging,No logging detected,,CODESTYLE,True

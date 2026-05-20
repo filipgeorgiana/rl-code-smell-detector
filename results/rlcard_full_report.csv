@@ -1,0 +1,37 @@
+File,Smell,Details,Line,Category,Is Code Smell
+test_nolimitholdem_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_nolimitholdem_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_nolimitholdem_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_nolimitholdem_env.py,Logging,No logging detected,,CODESTYLE,True
+test_doudizhu_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_doudizhu_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_doudizhu_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_doudizhu_env.py,Logging,No logging detected,,CODESTYLE,True
+test_limitholdem_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_limitholdem_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_limitholdem_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_limitholdem_env.py,Logging,No logging detected,,CODESTYLE,True
+test_gin_rummy_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_gin_rummy_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_gin_rummy_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_gin_rummy_env.py,Logging,No logging detected,,CODESTYLE,True
+test_uno_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_uno_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_uno_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_uno_env.py,Logging,No logging detected,,CODESTYLE,True
+test_leducholdem_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_leducholdem_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_leducholdem_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_leducholdem_env.py,Logging,No logging detected,,CODESTYLE,True
+test_mahjong.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_mahjong.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_mahjong.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_mahjong.py,Logging,No logging detected,,CODESTYLE,True
+test_blackjack_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_blackjack_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_blackjack_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_blackjack_env.py,Logging,No logging detected,,CODESTYLE,True
+env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env.py,Logging,No logging detected,,CODESTYLE,True

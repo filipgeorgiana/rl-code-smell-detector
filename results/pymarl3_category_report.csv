@@ -1,0 +1,5 @@
+Repository,Repository Age (months),Stars,Contributors,Size (KB),Topics,RL Libraries,Category,Count,Percentage
+https://github.com/tjuHaoXiaotian/pymarl3,44,173,1,2617,multiagent-reinforcement-learning; permutation; permutation-equivariance; permutation-equivariant; permutation-invariance; permutation-invariant; starcraft2; starcraft2-ai,torch,TRAINING,7,30.43
+https://github.com/tjuHaoXiaotian/pymarl3,44,173,1,2617,multiagent-reinforcement-learning; permutation; permutation-equivariance; permutation-equivariant; permutation-invariance; permutation-invariant; starcraft2; starcraft2-ai,torch,HYPERPARAMETER,7,30.43
+https://github.com/tjuHaoXiaotian/pymarl3,44,173,1,2617,multiagent-reinforcement-learning; permutation; permutation-equivariance; permutation-equivariant; permutation-invariance; permutation-invariant; starcraft2; starcraft2-ai,torch,EVALUATION,7,30.43
+https://github.com/tjuHaoXiaotian/pymarl3,44,173,1,2617,multiagent-reinforcement-learning; permutation; permutation-equivariance; permutation-equivariant; permutation-invariance; permutation-invariant; starcraft2; starcraft2-ai,torch,CODESTYLE,2,8.7

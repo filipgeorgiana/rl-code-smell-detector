@@ -1,0 +1,58 @@
+File,Smell,Details,Line,Category,Is Code Smell
+ql_single-intersection.py,Environment Closed Detected,env,88.0,ENVIRONMENT,False
+ql_single-intersection.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ql_single-intersection.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ql_single-intersection.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ql_single-intersection.py,Logging,No logging detected,,CODESTYLE,True
+sarsa_resco.py,Environment Closed Detected,env,60.0,ENVIRONMENT,False
+sarsa_resco.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sarsa_resco.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sarsa_resco.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sarsa_resco.py,Logging,No logging detected,,CODESTYLE,True
+sb3_grid4x4.py,Environment Closed Detected,env,82.0,ENVIRONMENT,False
+sb3_grid4x4.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sb3_grid4x4.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sb3_grid4x4.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sb3_grid4x4.py,Logging,No logging detected,,CODESTYLE,True
+sarsa_2way-single-intersection.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sarsa_2way-single-intersection.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sarsa_2way-single-intersection.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sarsa_2way-single-intersection.py,Logging,No logging detected,,CODESTYLE,True
+ql_4x4grid-mo.py,Environment Closed Detected,env,71.0,ENVIRONMENT,False
+ql_4x4grid-mo.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ql_4x4grid-mo.py,Hardcoded hyperparameter,gamma=0.99,21.0,HYPERPARAMETER,True
+ql_4x4grid-mo.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ql_4x4grid-mo.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ql_4x4grid-mo.py,Logging,No logging detected,,CODESTYLE,True
+dqn_big-intersection.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dqn_big-intersection.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dqn_big-intersection.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dqn_big-intersection.py,Logging,No logging detected,,CODESTYLE,True
+sarsa_double.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+sarsa_double.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+sarsa_double.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+sarsa_double.py,Logging,No logging detected,,CODESTYLE,True
+ql_2way-single-intersection.py,Environment Closed Detected,env,93.0,ENVIRONMENT,False
+ql_2way-single-intersection.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ql_2way-single-intersection.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ql_2way-single-intersection.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ql_2way-single-intersection.py,Logging,No logging detected,,CODESTYLE,True
+dqn_2way-single-intersection.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+dqn_2way-single-intersection.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+dqn_2way-single-intersection.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+dqn_2way-single-intersection.py,Logging,No logging detected,,CODESTYLE,True
+ql_4x4grid.py,Environment Closed Detected,env,67.0,ENVIRONMENT,False
+ql_4x4grid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+ql_4x4grid.py,Hardcoded hyperparameter,gamma=0.99,21.0,HYPERPARAMETER,True
+ql_4x4grid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ql_4x4grid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ql_4x4grid.py,Logging,No logging detected,,CODESTYLE,True
+gym_test.py,Environment Closed Detected,env,17.0,ENVIRONMENT,False
+gym_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gym_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gym_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gym_test.py,Logging,No logging detected,,CODESTYLE,True
+env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env.py,Logging,No logging detected,,CODESTYLE,True

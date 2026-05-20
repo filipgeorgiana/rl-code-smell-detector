@@ -1,0 +1,96 @@
+File,Smell,Details,Line,Category,Is Code Smell
+rollout_custom.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+rollout_custom.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+rollout_custom.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+rollout_custom.py,Logging,No logging detected,,CODESTYLE,True
+viz.py,Environment Closed Detected,env,46.0,ENVIRONMENT,False
+viz.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+viz.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+viz.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+viz.py,Logging,No logging detected,,CODESTYLE,True
+tf_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+tf_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tf_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tf_env.py,Logging,No logging detected,,CODESTYLE,True
+__init__.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+__init__.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+__init__.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+__init__.py,Logging,No logging detected,,CODESTYLE,True
+tf_atari.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+tf_atari.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tf_atari.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tf_atari.py,Logging,No logging detected,,CODESTYLE,True
+tf_maze.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+tf_maze.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+tf_maze.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+tf_maze.py,Logging,No logging detected,,CODESTYLE,True
+nses.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+nses.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+nses.py,Logging,logging library imported logging,1.0,CODESTYLE,False
+nses.py,Logging,call logger.info,59.0,CODESTYLE,False
+nses.py,Logging,call logger.info,85.0,CODESTYLE,False
+nses.py,Logging,call logger.info,100.0,CODESTYLE,False
+nses.py,Logging,call tlogger.log,162.0,CODESTYLE,False
+nses.py,Logging,call logger.warning,206.0,CODESTYLE,False
+nses.py,Logging,call logger.info,253.0,CODESTYLE,False
+nses.py,Logging,call tlogger.log,316.0,CODESTYLE,False
+nses.py,Logging,call logger.info,319.0,CODESTYLE,False
+nses.py,Logging,call logger.info,351.0,CODESTYLE,False
+atari_wrappers.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+atari_wrappers.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+atari_wrappers.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+atari_wrappers.py,Logging,No logging detected,,CODESTYLE,True
+ga_modified.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ga_modified.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ga_modified.py,Logging,call logger.info,67.0,CODESTYLE,False
+ga_modified.py,Logging,call logger.info,69.0,CODESTYLE,False
+ga_modified.py,Logging,call logger.info,84.0,CODESTYLE,False
+ga_modified.py,Logging,call tlogger.log,139.0,CODESTYLE,False
+ga_modified.py,Logging,call logger.warning,182.0,CODESTYLE,False
+ga_modified.py,Logging,call logger.info,220.0,CODESTYLE,False
+ga_modified.py,Logging,call tlogger.log,262.0,CODESTYLE,False
+ga_modified.py,Logging,call logger.info,266.0,CODESTYLE,False
+ga_modified.py,Logging,call logger.info,292.0,CODESTYLE,False
+es.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+es.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+es.py,Logging,logging library imported logging,1.0,CODESTYLE,False
+es.py,Logging,call logger.info,56.0,CODESTYLE,False
+es.py,Logging,call logger.info,61.0,CODESTYLE,False
+es.py,Logging,call logger.info,142.0,CODESTYLE,False
+es.py,Logging,call logger.info,145.0,CODESTYLE,False
+es.py,Logging,call logger.info,166.0,CODESTYLE,False
+es.py,Logging,call logger.info,178.0,CODESTYLE,False
+es.py,Logging,call tlogger.log,225.0,CODESTYLE,False
+es.py,Logging,call logger.warning,270.0,CODESTYLE,False
+es.py,Logging,call logger.info,311.0,CODESTYLE,False
+es.py,Logging,call tlogger.log,353.0,CODESTYLE,False
+es.py,Logging,call logger.info,367.0,CODESTYLE,False
+es.py,Logging,call logger.info,393.0,CODESTYLE,False
+es.py,Random behavior detected for sampling,env.action_space.sample(),109.0,AGENT,True
+es_modified.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+es_modified.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+es_modified.py,Logging,logging library imported logging,1.0,CODESTYLE,False
+es_modified.py,Logging,call logger.info,56.0,CODESTYLE,False
+es_modified.py,Logging,call logger.info,61.0,CODESTYLE,False
+es_modified.py,Logging,call logger.info,202.0,CODESTYLE,False
+es_modified.py,Logging,call logger.info,205.0,CODESTYLE,False
+es_modified.py,Logging,call logger.info,226.0,CODESTYLE,False
+es_modified.py,Logging,call logger.info,238.0,CODESTYLE,False
+es_modified.py,Logging,call tlogger.log,282.0,CODESTYLE,False
+es_modified.py,Logging,call logger.warning,328.0,CODESTYLE,False
+es_modified.py,Logging,call logger.info,371.0,CODESTYLE,False
+es_modified.py,Logging,call tlogger.log,414.0,CODESTYLE,False
+es_modified.py,Logging,call logger.info,429.0,CODESTYLE,False
+es_modified.py,Logging,call logger.info,462.0,CODESTYLE,False
+es_modified.py,Random behavior detected for sampling,env.action_space.sample(),109.0,AGENT,True
+ga.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+ga.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+ga.py,Logging,call logger.info,34.0,CODESTYLE,False
+ga.py,Logging,call logger.info,36.0,CODESTYLE,False
+ga.py,Logging,call logger.info,51.0,CODESTYLE,False
+ga.py,Logging,call tlogger.log,89.0,CODESTYLE,False
+ga.py,Logging,call logger.warning,132.0,CODESTYLE,False
+ga.py,Logging,call logger.info,164.0,CODESTYLE,False
+ga.py,Logging,call tlogger.log,206.0,CODESTYLE,False
+ga.py,Logging,call logger.info,210.0,CODESTYLE,False
+ga.py,Logging,call logger.info,232.0,CODESTYLE,False

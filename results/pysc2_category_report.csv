@@ -1,0 +1,5 @@
+Repository,Repository Age (months),Stars,Contributors,Size (KB),Topics,RL Libraries,Category,Count,Percentage
+https://github.com/google-deepmind/pysc2,102,8258,27,4571,blizzard-api; deepmind; machine-learning; reinforcement-learning; starcraft-ii; starcraft-ii-replays,N/A,TRAINING,6,25.0
+https://github.com/google-deepmind/pysc2,102,8258,27,4571,blizzard-api; deepmind; machine-learning; reinforcement-learning; starcraft-ii; starcraft-ii-replays,N/A,HYPERPARAMETER,6,25.0
+https://github.com/google-deepmind/pysc2,102,8258,27,4571,blizzard-api; deepmind; machine-learning; reinforcement-learning; starcraft-ii; starcraft-ii-replays,N/A,EVALUATION,6,25.0
+https://github.com/google-deepmind/pysc2,102,8258,27,4571,blizzard-api; deepmind; machine-learning; reinforcement-learning; starcraft-ii; starcraft-ii-replays,N/A,CODESTYLE,6,25.0

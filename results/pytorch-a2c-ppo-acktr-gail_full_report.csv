@@ -1,0 +1,16 @@
+File,Smell,Details,Line,Category,Is Code Smell
+enjoy.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+enjoy.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+enjoy.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+enjoy.py,Logging,No logging detected,,CODESTYLE,True
+evaluation.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+evaluation.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+evaluation.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+evaluation.py,Logging,No logging detected,,CODESTYLE,True
+main.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+main.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+main.py,Logging,No logging detected,,CODESTYLE,True
+envs.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+envs.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+envs.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+envs.py,Logging,No logging detected,,CODESTYLE,True

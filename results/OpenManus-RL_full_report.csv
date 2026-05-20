@@ -1,0 +1,217 @@
+File,Smell,Details,Line,Category,Is Code Smell
+test_rollout_mock.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_rollout_mock.py,Hardcoded hyperparameter,max_steps=10,34.0,HYPERPARAMETER,True
+test_rollout_mock.py,Hardcoded hyperparameter,batch_size=4,152.0,HYPERPARAMETER,True
+test_rollout_mock.py,Hardcoded hyperparameter,max_steps=5,319.0,HYPERPARAMETER,True
+test_rollout_mock.py,Hardcoded hyperparameter,max_steps=5,403.0,HYPERPARAMETER,True
+test_rollout_mock.py,Hardcoded hyperparameter,batch_size=2,413.0,HYPERPARAMETER,True
+test_rollout_mock.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_rollout_mock.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_rollout_mock.py,Logging,No logging detected,,CODESTYLE,True
+test_rollout_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_rollout_env.py,Hardcoded hyperparameter,max_steps=10,36.0,HYPERPARAMETER,True
+test_rollout_env.py,Hardcoded hyperparameter,val_batch_size=1,55.0,HYPERPARAMETER,True
+test_rollout_env.py,Hardcoded hyperparameter,batch_size=1,95.0,HYPERPARAMETER,True
+test_rollout_env.py,Hardcoded hyperparameter,batch_size=2,97.0,HYPERPARAMETER,True
+test_rollout_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_rollout_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_rollout_env.py,Logging,No logging detected,,CODESTYLE,True
+env_manager.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env_manager.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env_manager.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env_manager.py,Logging,No logging detected,,CODESTYLE,True
+base.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+base.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+base.py,Logging,No logging detected,,CODESTYLE,True
+envs.py,Environment Closed Detected,env,118.0,ENVIRONMENT,False
+envs.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+envs.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+envs.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+envs.py,Logging,No logging detected,,CODESTYLE,True
+envs.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+envs.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+envs.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+envs.py,Logging,No logging detected,,CODESTYLE,True
+alfred_tw_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+alfred_tw_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+alfred_tw_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+alfred_tw_env.py,Logging,No logging detected,,CODESTYLE,True
+alfred_hybrid.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+alfred_hybrid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+alfred_hybrid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+alfred_hybrid.py,Logging,No logging detected,,CODESTYLE,True
+alfred_thor_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+alfred_thor_env.py,Hardcoded hyperparameter,batch_size=1,225.0,HYPERPARAMETER,True
+alfred_thor_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+alfred_thor_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+alfred_thor_env.py,Logging,No logging detected,,CODESTYLE,True
+generate_trajectories.py,Hardcoded hyperparameter,already_keyed=False,139.0,HYPERPARAMETER,True
+generate_trajectories.py,Hardcoded hyperparameter,already_keyed=True,142.0,HYPERPARAMETER,True
+generate_trajectories.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+generate_trajectories.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+generate_trajectories.py,Logging,No logging detected,,CODESTYLE,True
+thor_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+thor_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+thor_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+thor_env.py,Logging,No logging detected,,CODESTYLE,True
+envs.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+envs.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+envs.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+envs.py,Logging,No logging detected,,CODESTYLE,True
+run_web_agent_text_env.py,Environment Closed Detected,env,32.0,ENVIRONMENT,False
+run_web_agent_text_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+run_web_agent_text_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+run_web_agent_text_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+run_web_agent_text_env.py,Logging,No logging detected,,CODESTYLE,True
+env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env.py,Logging,No logging detected,,CODESTYLE,True
+train_rl.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train_rl.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train_rl.py,Logging,logging library imported logging,2.0,CODESTYLE,False
+train_rl.py,Logging,No logging detected,,CODESTYLE,True
+train_rl.py,Training and evaluation coupling,Training function takes evaluation environments as argument: 'eval_env',74.0,TRAINING,True
+train_rl.py,Training and evaluation coupling,Training function calls 'evaluate()',153.0,TRAINING,True
+train_rl.py,Training and evaluation coupling,Training function calls 'evaluate()',156.0,TRAINING,True
+train_rl.py,Training and evaluation coupling,Training function takes evaluation environments as argument: 'eval_env',74.0,TRAINING,True
+train_rl.py,Training and evaluation coupling,Training function calls 'evaluate()',153.0,TRAINING,True
+train_rl.py,Training and evaluation coupling,Training function calls 'evaluate()',156.0,TRAINING,True
+test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test.py,Logging,No logging detected,,CODESTYLE,True
+web_agent_site_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+web_agent_site_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+web_agent_site_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+web_agent_site_env.py,Logging,No logging detected,,CODESTYLE,True
+web_agent_text_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+web_agent_text_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+web_agent_text_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+web_agent_text_env.py,Logging,No logging detected,,CODESTYLE,True
+gaia.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+gaia.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+gaia.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+gaia.py,Logging,logging library imported logging,9.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,170.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,172.0,CODESTYLE,False
+gaia.py,Logging,call logging.warning,176.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,181.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,215.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,221.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,228.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,253.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,274.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,368.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,403.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,414.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,416.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,432.0,CODESTYLE,False
+gaia.py,Logging,call logging.warning,434.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,436.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,439.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,440.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,443.0,CODESTYLE,False
+gaia.py,Logging,call logging.info,450.0,CODESTYLE,False
+openmanus_rollout.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+openmanus_rollout.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+openmanus_rollout.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+openmanus_rollout.py,Logging,logging library imported logging,10.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.error,283.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.error,291.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,411.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,412.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,413.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,423.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,430.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,440.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,445.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,456.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,458.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.warning,461.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,475.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,483.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,490.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,497.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,498.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,508.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,512.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,514.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,536.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,579.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,601.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.debug,670.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.debug,727.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.debug,752.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.debug,782.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,785.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.debug,819.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.debug,845.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.debug,875.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,881.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,891.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,893.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,907.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.warning,909.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,911.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,917.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,920.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,921.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,922.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,926.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,928.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,930.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,933.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,947.0,CODESTYLE,False
+openmanus_rollout.py,Logging,call logging.info,951.0,CODESTYLE,False
+run_alfworld_rollout.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+run_alfworld_rollout.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+run_alfworld_rollout.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+run_alfworld_rollout.py,Logging,logging library imported logging,9.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,144.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.error,201.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.error,206.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,209.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,213.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,219.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.warning,223.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,230.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,255.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,274.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,384.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,425.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,431.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,436.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,452.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.warning,454.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,456.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,459.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,460.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,463.0,CODESTYLE,False
+run_alfworld_rollout.py,Logging,call logging.info,470.0,CODESTYLE,False
+webshop.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+webshop.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+webshop.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+webshop.py,Logging,logging library imported logging,4.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,127.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,128.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,136.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,144.0,CODESTYLE,False
+webshop.py,Logging,call logging.error,165.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,173.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,176.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,181.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,187.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,196.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,208.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,239.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,269.0,CODESTYLE,False
+webshop.py,Logging,call logging.warning,271.0,CODESTYLE,False
+webshop.py,Logging,call logging.warning,294.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,301.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,332.0,CODESTYLE,False
+webshop.py,Logging,call logging.warning,334.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,341.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,347.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,350.0,CODESTYLE,False
+webshop.py,Logging,call logging.info,352.0,CODESTYLE,False

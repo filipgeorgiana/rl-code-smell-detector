@@ -1,0 +1,32 @@
+File,Smell,Details,Line,Category,Is Code Smell
+train.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+train.py,Hardcoded hyperparameter,lr=0.01,52.0,HYPERPARAMETER,True
+train.py,Hardcoded hyperparameter,gamma=0.95,53.0,HYPERPARAMETER,True
+train.py,Hardcoded hyperparameter,batch_size=1024,54.0,HYPERPARAMETER,True
+train.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+train.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+train.py,Logging,No logging detected,,CODESTYLE,True
+environment.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+environment.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+environment.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+environment.py,Logging,No logging detected,,CODESTYLE,True
+identity_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+identity_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+identity_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+identity_env.py,Logging,No logging detected,,CODESTYLE,True
+test_agent_env_combination.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_agent_env_combination.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_agent_env_combination.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_agent_env_combination.py,Logging,No logging detected,,CODESTYLE,True
+test_masac.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_masac.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_masac.py,Logging,No logging detected,,CODESTYLE,True
+test_matd3.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_matd3.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_matd3.py,Logging,No logging detected,,CODESTYLE,True
+test_maddpg.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_maddpg.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_maddpg.py,Logging,No logging detected,,CODESTYLE,True
+test_mad3pg.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_mad3pg.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_mad3pg.py,Logging,No logging detected,,CODESTYLE,True

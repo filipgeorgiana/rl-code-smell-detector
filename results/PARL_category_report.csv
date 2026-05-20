@@ -1,0 +1,6 @@
+Repository,Repository Age (months),Stars,Contributors,Size (KB),Topics,RL Libraries,Category,Count,Percentage
+https://github.com/PaddlePaddle/PARL,93,3460,39,48447,large-scale; parallelization; reinforcement-learning,gym; gym.envs.classic_control; gym.utils; gym.vector; torch,HYPERPARAMETER,114,31.84
+https://github.com/PaddlePaddle/PARL,93,3460,39,48447,large-scale; parallelization; reinforcement-learning,gym; gym.envs.classic_control; gym.utils; gym.vector; torch,EVALUATION,111,31.01
+https://github.com/PaddlePaddle/PARL,93,3460,39,48447,large-scale; parallelization; reinforcement-learning,gym; gym.envs.classic_control; gym.utils; gym.vector; torch,TRAINING,89,24.86
+https://github.com/PaddlePaddle/PARL,93,3460,39,48447,large-scale; parallelization; reinforcement-learning,gym; gym.envs.classic_control; gym.utils; gym.vector; torch,CODESTYLE,42,11.73
+https://github.com/PaddlePaddle/PARL,93,3460,39,48447,large-scale; parallelization; reinforcement-learning,gym; gym.envs.classic_control; gym.utils; gym.vector; torch,AGENT,2,0.56

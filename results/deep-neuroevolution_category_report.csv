@@ -1,0 +1,6 @@
+Repository,Repository Age (months),Stars,Contributors,Size (KB),Topics,RL Libraries,Category,Count,Percentage
+https://github.com/uber-research/deep-neuroevolution,97,1664,9,3804,ai; deep-neuroevolution; machine-learning; reinforcement-learning,gym; gym.envs.classic_control; gym_tensorflow.tf_env,HYPERPARAMETER,12,30.0
+https://github.com/uber-research/deep-neuroevolution,97,1664,9,3804,ai; deep-neuroevolution; machine-learning; reinforcement-learning,gym; gym.envs.classic_control; gym_tensorflow.tf_env,EVALUATION,12,30.0
+https://github.com/uber-research/deep-neuroevolution,97,1664,9,3804,ai; deep-neuroevolution; machine-learning; reinforcement-learning,gym; gym.envs.classic_control; gym_tensorflow.tf_env,TRAINING,7,17.5
+https://github.com/uber-research/deep-neuroevolution,97,1664,9,3804,ai; deep-neuroevolution; machine-learning; reinforcement-learning,gym; gym.envs.classic_control; gym_tensorflow.tf_env,CODESTYLE,7,17.5
+https://github.com/uber-research/deep-neuroevolution,97,1664,9,3804,ai; deep-neuroevolution; machine-learning; reinforcement-learning,gym; gym.envs.classic_control; gym_tensorflow.tf_env,AGENT,2,5.0

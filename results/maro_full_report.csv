@@ -1,0 +1,82 @@
+File,Smell,Details,Line,Category,Is Code Smell
+test_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_env.py,Logging,No logging detected,,CODESTYLE,True
+test_vector_env.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_vector_env.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_vector_env.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_vector_env.py,Logging,No logging detected,,CODESTYLE,True
+test_vm_scheduling_scenario.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_vm_scheduling_scenario.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_vm_scheduling_scenario.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_vm_scheduling_scenario.py,Logging,No logging detected,,CODESTYLE,True
+env_sampler.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env_sampler.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env_sampler.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env_sampler.py,Logging,No logging detected,,CODESTYLE,True
+common.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+common.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+common.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+common.py,Logging,No logging detected,,CODESTYLE,True
+business_engine.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+business_engine.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+business_engine.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+business_engine.py,Logging,No logging detected,,CODESTYLE,True
+launcher.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+launcher.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+launcher.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+launcher.py,Logging,call simulation_logger.info,84.0,CODESTYLE,False
+launcher.py,Logging,call simulation_logger.info,88.0,CODESTYLE,False
+launcher.py,Logging,call simulation_logger.info,90.0,CODESTYLE,False
+launcher.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+launcher.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+launcher.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+launcher.py,Logging,No logging detected,,CODESTYLE,True
+hello.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+hello.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+hello.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+hello.py,Logging,No logging detected,,CODESTYLE,True
+hello.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+hello.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+hello.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+hello.py,Logging,No logging detected,,CODESTYLE,True
+hello_geo_vis.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+hello_geo_vis.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+hello_geo_vis.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+hello_geo_vis.py,Logging,No logging detected,,CODESTYLE,True
+hello_streamlit.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+hello_streamlit.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+hello_streamlit.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+hello_streamlit.py,Logging,No logging detected,,CODESTYLE,True
+hello.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+hello.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+hello.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+hello.py,Logging,No logging detected,,CODESTYLE,True
+launcher.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+launcher.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+launcher.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+launcher.py,Logging,No logging detected,,CODESTYLE,True
+launcher.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+launcher.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+launcher.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+launcher.py,Logging,No logging detected,,CODESTYLE,True
+env_process.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env_process.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env_process.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env_process.py,Logging,No logging detected,,CODESTYLE,True
+core.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+core.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+core.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+core.py,Logging,No logging detected,,CODESTYLE,True
+env_sampler.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+env_sampler.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+env_sampler.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+env_sampler.py,Logging,No logging detected,,CODESTYLE,True
+batch_env_sampler.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+batch_env_sampler.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+batch_env_sampler.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+batch_env_sampler.py,Logging,call self._logger.debug,77.0,CODESTYLE,False
+batch_env_sampler.py,Logging,call self._logger.debug,86.0,CODESTYLE,False
+batch_env_sampler.py,Logging,call self._logger.debug,96.0,CODESTYLE,False
+batch_env_sampler.py,Logging,call self._logger.info,171.0,CODESTYLE,False

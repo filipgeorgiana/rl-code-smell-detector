@@ -1,0 +1,46 @@
+File,Smell,Details,Line,Category,Is Code Smell
+task_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+task_test.py,Hardcoded hyperparameter,expected_discount=0.0,342.0,HYPERPARAMETER,True
+task_test.py,Hardcoded hyperparameter,expected_discount=1.0,344.0,HYPERPARAMETER,True
+task_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+task_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+task_test.py,Logging,No logging detected,,CODESTYLE,True
+examples_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+examples_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+examples_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+examples_test.py,Logging,No logging detected,,CODESTYLE,True
+environment_hooks_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+environment_hooks_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+environment_hooks_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+environment_hooks_test.py,Logging,No logging detected,,CODESTYLE,True
+environment.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+environment.py,Hardcoded hyperparameter,discount=0.0,450.0,HYPERPARAMETER,True
+environment.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+environment.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+environment.py,Logging,call logging.info,135.0,CODESTYLE,False
+environment.py,Logging,call logging.error,373.0,CODESTYLE,False
+environment.py,Logging,call logging.warning,433.0,CODESTYLE,False
+environment_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+environment_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+environment_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+environment_test.py,Logging,No logging detected,,CODESTYLE,True
+lqr_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+lqr_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+lqr_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+lqr_test.py,Logging,call logging.info,41.0,CODESTYLE,False
+lqr_test.py,Logging,call logging.info,47.0,CODESTYLE,False
+lqr_test.py,Logging,call logging.info,56.0,CODESTYLE,False
+lqr_test.py,Logging,call logging.info,58.0,CODESTYLE,False
+action_scale_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+action_scale_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+action_scale_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+action_scale_test.py,Logging,No logging detected,,CODESTYLE,True
+control.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+control.py,Hardcoded hyperparameter,discount=1.0,116.0,HYPERPARAMETER,True
+control.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+control.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+control.py,Logging,No logging detected,,CODESTYLE,True
+control_test.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+control_test.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+control_test.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+control_test.py,Logging,No logging detected,,CODESTYLE,True

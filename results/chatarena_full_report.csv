@@ -1,0 +1,18 @@
+File,Smell,Details,Line,Category,Is Code Smell
+arena.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+arena.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+arena.py,Logging,logging library imported logging,3.0,CODESTYLE,False
+arena.py,Logging,call logging.warning,69.0,CODESTYLE,False
+arena.py,Logging,call logging.warning,76.0,CODESTYLE,False
+pettingzoo_chess.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pettingzoo_chess.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pettingzoo_chess.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pettingzoo_chess.py,Logging,No logging detected,,CODESTYLE,True
+test_environments.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_environments.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_environments.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_environments.py,Logging,No logging detected,,CODESTYLE,True
+test_umshini_environments.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+test_umshini_environments.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+test_umshini_environments.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+test_umshini_environments.py,Logging,No logging detected,,CODESTYLE,True

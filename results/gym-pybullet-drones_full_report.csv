@@ -1,0 +1,38 @@
+File,Smell,Details,Line,Category,Is Code Smell
+cf.py,Environment Closed Detected,env,117.0,ENVIRONMENT,False
+cf.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+cf.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+cf.py,Logging,call logger.log,103.0,CODESTYLE,False
+downwash.py,Environment Closed Detected,env,112.0,ENVIRONMENT,False
+downwash.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+downwash.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+downwash.py,Logging,call logger.log,98.0,CODESTYLE,False
+pid.py,Environment Closed Detected,env,170.0,ENVIRONMENT,False
+pid.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pid.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pid.py,Logging,call logger.log,155.0,CODESTYLE,False
+beta.py,Environment Closed Detected,env,157.0,ENVIRONMENT,False
+beta.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+beta.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+beta.py,Logging,call logger.log,143.0,CODESTYLE,False
+play.py,Environment Closed Detected,env,75.0,ENVIRONMENT,False
+play.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+play.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+play.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+play.py,Logging,call logger.log,53.0,CODESTYLE,False
+play.py,Logging,call logger.log,62.0,CODESTYLE,False
+play.py,Ambiguous initialization for Multi Agent,"Possible design smell: ambiguous initialization DEFAULT_AGENTS=2 and {('DEFAULT_MA', False)}",17.0,AGENT,False
+learn.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+learn.py,Model evaluation detected,Evaluation call 'EvalCallback' detected at line 85,85.0,EVALUATION,False
+learn.py,Logging,call logger.log,167.0,CODESTYLE,False
+learn.py,Logging,call logger.log,178.0,CODESTYLE,False
+learn.py,Ambiguous initialization for Multi Agent,"Possible design smell: ambiguous initialization DEFAULT_AGENTS=2 and {('DEFAULT_MA', False)}",44.0,AGENT,False
+pid_velocity.py,Environment Closed Detected,env,149.0,ENVIRONMENT,False
+pid_velocity.py,Missing checkpoint saving,The model does not implement intermediate checkpoint saving. Training progress could be lost.,,TRAINING,True
+pid_velocity.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+pid_velocity.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+pid_velocity.py,Logging,call logger.log,135.0,CODESTYLE,False
+mrac.py,Environment Closed Detected,env,105.0,ENVIRONMENT,False
+mrac.py,No tuning of hyperparameters,hyperparameter tuning is missing from the script,,HYPERPARAMETER,True
+mrac.py,Missing model evaluation,Evaluation call not found in the script,,EVALUATION,True
+mrac.py,Logging,call logger.log,94.0,CODESTYLE,False
